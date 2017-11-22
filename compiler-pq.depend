@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1511232755 source:c:\users\41404\desktop\compiler-pq\main.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"glob.h"
+
+1511232656 c:\users\41404\desktop\compiler-pq\glob.h
+
+1511282764 source:c:\users\41404\onedrive\大三上\编译\课程设计\part2-词法分析和设计\compiler-pq\err.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"glob.h"
+	"err.h"
+
+1511283022 c:\users\41404\onedrive\大三上\编译\课程设计\part2-词法分析和设计\compiler-pq\glob.h
+
+1511282553 c:\users\41404\onedrive\大三上\编译\课程设计\part2-词法分析和设计\compiler-pq\err.h
+
+1511267935 source:c:\users\41404\onedrive\大三上\编译\课程设计\part2-词法分析和设计\compiler-pq\main.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"glob.h"
+	"err.h"
+
