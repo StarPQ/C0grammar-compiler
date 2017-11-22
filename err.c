@@ -3,7 +3,6 @@
 #include<ctype.h>
 #include"lexing.h"
 #include"err.h"
-FILE *erroutput = fopen("err.txt", "w");
 int count = 0;
 int err(int type){
     count++;

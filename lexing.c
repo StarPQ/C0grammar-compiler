@@ -171,6 +171,7 @@ int nextsym(){
                         if(i < MAX_sl){
                             buf[i] = ch;
                             i++;
+                        }
                     }
                     else{
                         err(INVALIDCHAR);
@@ -267,6 +268,7 @@ int nextsym(){
 
 int main(int argc,char** argv){
     inputfile = fopen(argv[1], "r");
+    erroutput = fopen("_err", "w");
     FILE *outputile = fopen("_result", "w");
     nextch();
     int i;
