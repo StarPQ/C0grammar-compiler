@@ -17,7 +17,6 @@ int main(int argc,char** argv){
         inputfile = fopen(argv[1], "r");
     } 
     nextch();
-    nextsym();
     Program();
     printf("FINISH!\n");
     return 0;

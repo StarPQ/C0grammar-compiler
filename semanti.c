@@ -98,5 +98,6 @@ void Conststate(){
 
 }
 void Program(){
-
+    nextsym();
+    if();
 }
