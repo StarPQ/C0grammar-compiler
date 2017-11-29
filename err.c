@@ -22,3 +22,6 @@ int err(int type){
     }
     return 0;
 }
+
+void Const(){
+}

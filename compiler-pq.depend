@@ -7,7 +7,7 @@
 
 1511232656 c:\users\41404\desktop\compiler-pq\glob.h
 
-1511331381 source:c:\users\41404\onedrive\大三上\编译\课程设计\part2-词法分析和设计\compiler-pq\err.c
+1511334519 source:c:\users\41404\onedrive\大三上\编译\课程设计\part2-词法分析和设计\compiler-pq\err.c
 	<stdio.h>
 	<string.h>
 	<ctype.h>
@@ -16,7 +16,7 @@
 
 1511283022 c:\users\41404\onedrive\大三上\编译\课程设计\part2-词法分析和设计\compiler-pq\glob.h
 
-1511319453 c:\users\41404\onedrive\大三上\编译\课程设计\part2-词法分析和设计\compiler-pq\err.h
+1511449840 c:\users\41404\onedrive\大三上\编译\课程设计\part2-词法分析和设计\compiler-pq\err.h
 
 1511267935 source:c:\users\41404\onedrive\大三上\编译\课程设计\part2-词法分析和设计\compiler-pq\main.c
 	<stdio.h>
@@ -26,4 +26,11 @@
 	"err.h"
 
 1511331381 c:\users\41404\onedrive\大三上\编译\课程设计\part2-词法分析和设计\compiler-pq\lexing.h
+
+1511331418 source:c:\users\41404\onedrive\大三上\编译\课程设计\part2-词法分析和设计\compiler-pq\lexing.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"lexing.h"
+	"err.h"
 

@@ -35,10 +35,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="err.h" />
-		<Unit filename="glob.h" />
-		<Unit filename="main.c">
+		<Unit filename="lexing.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="lexing.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
