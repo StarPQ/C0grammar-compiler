@@ -34,5 +34,4 @@
 #define LACK_OPERATOR           33
 
 int err(int type);
-
-
+FILE *erroutput;

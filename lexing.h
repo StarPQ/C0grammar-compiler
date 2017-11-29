@@ -54,12 +54,13 @@
 extern char word[15][10];
 extern char wsym[15][10];
 extern char buf[MAX_sl];
+extern int num;
 extern char sym[10];
 extern int cc;             //char count
 extern int lc;             //line count
 extern char ch;
-FILE *erroutput;
 
 int nextsym();
 int nextch();
 int isword();
+void wordtest();

@@ -3,10 +3,9 @@
 #include<ctype.h>
 #include"lexing.h"
 #include"err.h"
+#include"global.h"
 
 int printdetails = 1;
-
-FILE *inputfile;
 int cc = 0;             //char count
 int lc = 0;             //line count
 char ch;                //the character read now
@@ -266,11 +265,8 @@ int nextsym(){
     return 0;
 }
 
-int main(int argc,char** argv){
-    inputfile = fopen(argv[1], "r");
-    erroutput = fopen("_err", "w");
+void wordtest(){
     FILE *outputile = fopen("_result", "w");
-    nextch();
     int i;
     int count = 0;
     while((i = nextsym()) != 1){
@@ -282,6 +278,6 @@ int main(int argc,char** argv){
                 fprintf(outputile, "%d %s\t%s\n",count,  sym, buf);
         }
     };
+    fclose(outputile);
     printf("finish word analysis!\n");
-    return 0;
 }
