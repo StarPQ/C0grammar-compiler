@@ -85,6 +85,7 @@ int err(int type){
         break;
     case LACK_RBBRACK:
         fprintf(erroutput, "%d LACK_RBBRACK: l:%d c:%d \'%s\'\n", count, lc, cc, buf);
+        //printf("%d LACK_RBBRACK: l:%d c:%d \'%s\'\n", count, lc, cc, buf);
         deal(DONOTHING);
         break;
     case NOTDEFINED_ERR:
@@ -93,6 +94,7 @@ int err(int type){
         break;
     case LACK_BECOME:
         fprintf(erroutput, "%d LACK_BECOME: l:%d c:%d \'%s\'\n", count, lc, cc, buf);
+        //printf("%d LACK_BECOME: l:%d c:%d \'%s\'\n", count, lc, cc, buf);
         deal(TOHEAD);
         break;
     case SOMETHINGELSE:
@@ -109,7 +111,7 @@ int err(int type){
         break;
     case ILLEGALSYM_ERR:
         fprintf(erroutput, "%d ILLEGALSYM_ERR: l:%d c:%d \'%s\'\n", count, lc, cc, buf);
-        deal(TOENDMID);
+        deal(TOHEAD);
         break;
     case LACK_ELSE:
         fprintf(erroutput, "%d LACK_ELSE: l:%d c:%d \'%s\'\n", count, lc, cc, buf);
@@ -139,6 +141,14 @@ int err(int type){
         fprintf(erroutput, "%d OUTOFTABLE_ERR: l:%d c:%d\n", count, lc, cc, buf);
         deal(DONOTHING);
         break;
+    case LACK_LMBRACK:
+        fprintf(erroutput, "%d LACK_LMBRACK: l:%d c:%d\n", count, lc, cc, buf);
+        deal(TOHEAD);
+        break;
+    case FACTOR_ERR:
+        fprintf(erroutput, "%d FACTOR_ERR: l:%d c:%d\n", count, lc, cc, buf);
+        deal(TOENDMID);
+        break;
     }
     return 0;
 }
@@ -150,7 +160,7 @@ void deal(int type){
     case TOHEAD:
         while(symid != CONSTSY && symid != IFSY && symid != ELSESY && symid != SWITCHSY && symid != CASESY
          && symid != DEFAULTSY && symid != RETURNSY && symid != WHILESY && symid != PRINTFSY && symid != SCANFSY
-          && symid != INTSY && symid != CHARSY && symid != VOIDSY && symid != LBBRACK){
+          && symid != INTSY && symid != CHARSY && symid != VOIDSY && symid != LBBRACK && symid != RBBRACK){
             nextsym();
         }
         break;
@@ -160,7 +170,7 @@ void deal(int type){
         }
         break;
     case TOENDMID:
-        while(symid != COMMA && symid != RSBRACK && symid != PLUS && symid != MINUS && symid != COLON && symid != SEMICOLON){
+        while(symid != COMMA && symid != RSBRACK && symid != PLUS && symid != MINUS && symid != COLON && symid != SEMICOLON && symid == RMBRACK){
             nextsym();
         }
         break;

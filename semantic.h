@@ -13,7 +13,6 @@ int Sentence();
 void Expression();
 void Item(int op);
 void Factor();
-void Becomes();
 void Conditionsentence();
 void Condition();
 void Loop();

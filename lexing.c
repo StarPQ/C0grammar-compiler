@@ -66,7 +66,6 @@ int nextsym(){
     //nextch();
     int i = 0;
     memset(buf, 0, sizeof(char)*MAX_wl);
-    num = 0;
     while(isspace(ch) && ch != EOF){
         nextch();
     }
@@ -75,7 +74,7 @@ int nextsym(){
     }
     if(ch == EOF) return 1;
     buf[i] = ch;
-    if(isalpha(ch)){
+    if(isalpha(ch) || ch == '_'){
         do{
             if(i < MAX_wl){
                 buf[i] = ch;
@@ -93,6 +92,7 @@ int nextsym(){
         }
     }
     else if(isdigit(ch)){
+        num = 0;
         do{
             if(i < MAX_wl){
                 num = num*10 + ch - '0';
@@ -151,7 +151,7 @@ int nextsym(){
     else if(ch == '\''){
                 nextch();
                 while(ch != '\''){
-                    if(isalnum(ch) || ch == '+' || ch == '-' || ch == '*' || ch == '/' )
+                    if(isalnum(ch) || ch == '+' || ch == '-' || ch == '*' || ch == '/' || ch == '_')
                         buf[i] = ch;
                     else{
                         err(INVALIDCHAR);
@@ -248,10 +248,8 @@ int nextsym(){
                 }
             }
     else if(ch == '!'){
-                printf("get!!!\n");
                 nextch();
                 if(ch == '='){
-                    printf("get===\n");
                     strcpy(sym, "NEQ");
                     symid = NEQ;
                     buf[i+1] = ch;
@@ -268,7 +266,7 @@ int nextsym(){
         nextch();
         return 2;
     }
-    if(debug){
+    if(0){
         if(symid == INTSY)
             printf("%s\t%d\n", sym, num);
         else

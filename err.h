@@ -1,6 +1,6 @@
 // HEAD = {const if else switch case default return while printf
-// scanf int char void { }
-// MID = {, ) + - : }
+// scanf int char void { } }
+// MID = {, ) + - : ] }
 //  END = {; }
 
 // define error types
@@ -70,6 +70,8 @@
 #define REDEFINE_ERR            32
 #define OUTOFTABLE_ERR          33
 
+#define LACK_LMBRACK            34  // (to HEAD)
+#define FACTOR_ERR              35
 
 // deal type
 #define DONOTHING               0

@@ -9,7 +9,7 @@
 
 void Returnsentence(){
     //when coming in: buf --> 'return'
-    if(debug) printf("This is a return sentence!");
+    if(debug) printf("This is a return sentence!\n");
     nextsym();
     if(symid == LSBRACK){
         nextsym();
@@ -21,10 +21,8 @@ void Returnsentence(){
             err(LACK_RBBRACK);
         }
     }
-    else{
-        err(LACK_LSBRACK);
-        return;
-    }
+    //TODO: check isreturn
+    midRet();
     if(symid != SEMICOLON) err(LACK_SEMICOLON);
     else nextsym();
     // if this function is returnable midRet();else err
@@ -32,7 +30,7 @@ void Returnsentence(){
 
 void Printfsentence(){
     //when coming in: buf --> 'printf'
-    if(debug) printf("This is a printf sentence!");
+    if(debug) printf("This is a printf sentence!\n");
     nextsym();
     if(symid == LSBRACK){
         nextsym();
@@ -46,7 +44,6 @@ void Printfsentence(){
             }
         }
         else{
-            nextsym();
             Expression();
             //midPrintf();
         }
@@ -64,7 +61,7 @@ void Printfsentence(){
 
 void Scanfsentence(){
     //when coming in: buf --> 'scanf'
-    if(debug) printf("This is a scanf sentence!");
+    if(debug) printf("This is a scanf sentence!\n");
     Link var;
     nextsym();
     if(symid == LSBRACK){
@@ -98,7 +95,7 @@ void Scanfsentence(){
 
 void Paralist2pass(int paranum){
     // when coming in: buf --> first sym
-    if(debug) printf("This is a paralist2pass!");
+    if(debug) printf("This is a paralist2pass!\n");
     int i = 1;
     Expression();
     while(symid == COMMA){
@@ -114,7 +111,7 @@ void Paralist2pass(int paranum){
 
 void Callfunc(){
     // when coming in: buf --> identifier
-    if(debug) printf("This is a call of function!");
+    if(debug) printf("This is a call of function!\n");
     Link func;
     func = find(buf);
     nextsym();
@@ -149,7 +146,7 @@ void Default(){
 }
 void Case(){
     //when coming in: buf --> 'case'
-    if(debug) printf("This is a case!");
+    if(debug) printf("This is a case!\n");
     nextsym();
     midLabel();
     if(symid == PLUS || symid == MINUS){
@@ -182,7 +179,7 @@ void Case(){
 }
 void Caselist(){
     //when coming in: buf --> first aym
-    if(debug) printf("This is a caselist!");
+    if(debug) printf("This is a caselist!\n");
     if(symid == CASESY){
         Case();
     }
@@ -196,7 +193,7 @@ void Caselist(){
 }
 void Switch(){
     //when coming in: buf --> 'switch'
-    if(debug) printf("This is a switch sentence!");
+    if(debug) printf("This is a switch sentence!\n");
     nextsym();
     if(symid == LSBRACK){
         nextsym();
@@ -229,7 +226,7 @@ void Switch(){
 }
 void Loop(){
     //when coming in: buf --> 'while'
-    if(debug) printf("This is a while{} sentence!");
+    if(debug) printf("This is a while{} sentence!\n");
     nextsym();
     if(symid == LSBRACK){
         nextsym();
@@ -253,7 +250,7 @@ void Loop(){
 }
 void Condition(){
     //when coming in: buf --> first sym
-    if(debug) printf("This is a condition!");
+    if(debug) printf("This is a condition!\n");
     Expression();
     if(symid >= EQL && symid <= LEQ){
         int id = symid;
@@ -268,7 +265,7 @@ void Condition(){
 }
 void Conditionsentence(){
     //when coming in: buf --> 'if'
-    if(debug) printf("This is a condition sentence!");
+    if(debug) printf("This is a condition sentence!\n");
     nextsym();
     if(symid == LSBRACK){
         nextsym();
@@ -295,11 +292,41 @@ void Conditionsentence(){
     else err(LACK_ELSE);
     return;
 }
-void Becomes(){
-    //when coming in: buf --> '='
+void Becomes(Link tmp){
+    //when coming in: buf --> '= | ['
     if(debug) printf("This is a become sentence!\n");
-    nextsym();
-    Expression();
+    int place = 0;
+    if(tmp->isarray){
+        if(symid == LMBRACK){
+            nextsym();
+            if(symid == NUMBER){
+                place = num;
+            }
+            else{
+                err(LACK_NUM);
+                return;
+            }
+            nextsym();
+            if(symid == RMBRACK){
+                nextsym();
+            }
+            else{
+                err(LACK_RMBRACK);
+            }
+        }
+        else{
+            err(LACK_LMBRACK);
+            return;
+        }
+    }
+    if(symid == BECOMES){
+        nextsym();
+        Expression();
+    }
+    else{
+        err(LACK_BECOME);
+        return;
+    }
     if(symid == SEMICOLON){
         nextsym();
     }
@@ -363,7 +390,7 @@ void Factor(){
         Expression();
     }
     else{
-        err(ILLEGALSYM_ERR);
+        err(FACTOR_ERR);
     }
     nextsym();
 }
@@ -393,7 +420,7 @@ void Expression(){
 int Sentence(){
     //when coming in: buf --> first sym
     if(debug) printf("This is a sentence!\n");
-    printf("-->%s\n", buf);
+    if(0) printf("-->%s\n", buf);
     if(symid == IFSY){
         Conditionsentence();
     }
@@ -413,13 +440,7 @@ int Sentence(){
         }
         else if(tmp->type == INTTYPE || tmp->type == CHARTYPE){
             nextsym();
-            if(symid == BECOMES){
-                Becomes();
-            }
-            else{
-                err(LACK_BECOME);
-                return;
-            }
+            Becomes(tmp);
         }
         else{
             err(SOMETHINGELSE);
@@ -429,6 +450,7 @@ int Sentence(){
         Switch();
     }
     else if(symid == LBBRACK){
+        nextsym();
         Sentencelist();
     }
     else if(symid == SCANFSY){
