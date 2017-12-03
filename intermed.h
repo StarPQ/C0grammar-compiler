@@ -15,3 +15,6 @@ void midLabel();
 void midArray_get();
 void midArray_assign();
 void midOperation();
+void midPrintf();
+void midScanf();
+

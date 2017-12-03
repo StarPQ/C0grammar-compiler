@@ -34,3 +34,76 @@
 	"lexing.h"
 	"err.h"
 
+1512268659 source:c:\users\41404\onedrive\大三上\编译\课程设计\15061036_彭骞_词法分析和设计\compiler-pq\err.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"lexing.h"
+	"err.h"
+
+1512194768 c:\users\41404\onedrive\大三上\编译\课程设计\15061036_彭骞_词法分析和设计\compiler-pq\lexing.h
+
+1512268626 c:\users\41404\onedrive\大三上\编译\课程设计\15061036_彭骞_词法分析和设计\compiler-pq\err.h
+
+1511917498 source:c:\users\41404\onedrive\大三上\编译\课程设计\15061036_彭骞_词法分析和设计\compiler-pq\asm.c
+
+1511921937 source:c:\users\41404\onedrive\大三上\编译\课程设计\15061036_彭骞_词法分析和设计\compiler-pq\intermed.c
+	<stdio.h>
+	<string.h>
+	"lexing.h"
+	"err.h"
+
+1512271270 source:c:\users\41404\onedrive\大三上\编译\课程设计\15061036_彭骞_词法分析和设计\compiler-pq\lexing.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"lexing.h"
+	"err.h"
+	"global.h"
+
+1512194769 c:\users\41404\onedrive\大三上\编译\课程设计\15061036_彭骞_词法分析和设计\compiler-pq\global.h
+
+1512270709 source:c:\users\41404\onedrive\大三上\编译\课程设计\15061036_彭骞_词法分析和设计\compiler-pq\main.c
+	<stdio.h>
+	<string.h>
+	"lexing.h"
+	"err.h"
+	"semantic.h"
+	"global.h"
+
+1512209314 c:\users\41404\onedrive\大三上\编译\课程设计\15061036_彭骞_词法分析和设计\compiler-pq\semantic.h
+
+1511917507 source:c:\users\41404\onedrive\大三上\编译\课程设计\15061036_彭骞_词法分析和设计\compiler-pq\optimization.c
+
+1512194295 source:c:\users\41404\onedrive\大三上\编译\课程设计\15061036_彭骞_词法分析和设计\compiler-pq\semanti.c
+	<stdio.h>
+	<string.h>
+	"lexing.h"
+	"err.h"
+	"semantic.h"
+	"global.h"
+	"intermed.h"
+	"table.h"
+
+1512138931 c:\users\41404\onedrive\大三上\编译\课程设计\15061036_彭骞_词法分析和设计\compiler-pq\intermed.h
+
+1512216367 c:\users\41404\onedrive\大三上\编译\课程设计\15061036_彭骞_词法分析和设计\compiler-pq\table.h
+
+1512225344 source:c:\users\41404\onedrive\大三上\编译\课程设计\15061036_彭骞_词法分析和设计\compiler-pq\table.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"err.h"
+	"global.h"
+	"table.h"
+
+1512270788 source:c:\users\41404\onedrive\大三上\编译\课程设计\15061036_彭骞_词法分析和设计\compiler-pq\semantic.c
+	<stdio.h>
+	<string.h>
+	"intermed.h"
+	"err.h"
+	"semantic.h"
+	"global.h"
+	"table.h"
+	"lexing.h"
+

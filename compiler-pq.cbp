@@ -31,14 +31,37 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Makefile" />
+		<Unit filename="asm.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="err.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="err.h" />
+		<Unit filename="global.h" />
+		<Unit filename="intermed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="intermed.h" />
 		<Unit filename="lexing.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lexing.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="optimization.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="semantic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="semantic.h" />
+		<Unit filename="table.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="table.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

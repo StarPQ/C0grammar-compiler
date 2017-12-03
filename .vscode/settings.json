@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "table.h": "c",
+        "err.h": "c"
+    }
+}

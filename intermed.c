@@ -3,6 +3,7 @@
 #include"lexing.h"
 #include"err.h"
 
+int labelcount = 0;
 
 void midFuncdef(){
 
@@ -53,5 +54,5 @@ void midArray_assign(){
 
 }
 void midOperation(){
-    
+
 }

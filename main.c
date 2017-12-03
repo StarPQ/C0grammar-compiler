@@ -7,15 +7,19 @@
 
 int debug = 1;
 int main(int argc,char** argv){
-    inputfile = fopen(argv[1], "r");
+    //inputfile = fopen(argv[1], "r");
+    inputfile = fopen("c:/Users/41404/OneDrive/15061036_test.txt", "r");
+    //inputfile = fopen("c:/Users/41404/OneDrive/test.txt", "r");
     erroutput = fopen("_err", "w");
     FILE *outputile = fopen("_result", "w");
-    if(debug){
-        nextch();  
+    printf("begin\n");
+    if(0){
+        nextch();
+        printf("%c", ch);
         wordtest();
         fclose(inputfile);
         inputfile = fopen(argv[1], "r");
-    } 
+    }
     nextch();
     Program();
     printf("FINISH!\n");

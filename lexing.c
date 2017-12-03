@@ -5,7 +5,6 @@
 #include"err.h"
 #include"global.h"
 
-int printdetails = 1;
 int cc = 0;             //char count
 int lc = 0;             //line count
 char ch;                //the character read now
@@ -13,6 +12,7 @@ char buf[MAX_sl];
 int num = 0;
 char sym[10];
 int symid = 0;
+extern FILE *inputfile;
 
 char word[15][10] = {
     "main", "const", "if", "else", "switch", "case", "default",
@@ -20,15 +20,18 @@ char word[15][10] = {
     "int", "char", "void"
 };
 
-char wsym[15][10] = {
-    "MAINSY", "CONSTSY", "IFSY", "ELSESY", "SWITCHSY", "CASESY", "DEFAULTSY",
-    "RETURNSY", "WHILESY", "PRINTFSY", "SCANFSY",
-    "INTCON", "CHARCON", "VOIDCON"
+int wsym[15] = {
+    MAINSY, CONSTSY, IFSY, ELSESY, SWITCHSY, CASESY, DEFAULTSY,
+    RETURNSY, WHILESY, PRINTFSY, SCANFSY,
+    INTSY, CHARSY, VOIDSY
 };
 
 // read next character
 // as all characters are decoded as ascii so return value is int type
 int nextch(){
+    if(ch == EOF){
+        err(REACHENDOFFILE);
+    }
     ch = fgetc(inputfile);
     //printf("%c\t", ch);
     //ignore ' ' and '\t'
@@ -81,7 +84,7 @@ int nextsym(){
             nextch();
         }while(isalpha(ch) || isdigit(ch) || ch == '_');
         if((i = isword()) >= 0){
-            strcpy(sym, wsym[i]);
+            strcpy(sym, word[i]);
             symid = i + 10;
         }
         else{
@@ -245,34 +248,43 @@ int nextsym(){
                 }
             }
     else if(ch == '!'){
+                printf("get!!!\n");
                 nextch();
                 if(ch == '='){
+                    printf("get===\n");
                     strcpy(sym, "NEQ");
                     symid = NEQ;
                     buf[i+1] = ch;
                     nextch();
                 }
-                else
+                else{
                     err(INVALIDCHAR);
                     nextch();
                     return 2;
+                }
             }
     else{
         err(INVALIDCHAR);
         nextch();
         return 2;
     }
+    if(debug){
+        if(symid == INTSY)
+            printf("%s\t%d\n", sym, num);
+        else
+            printf("%s\t%s\n", sym, buf);
+    }
     return 0;
 }
 
 void wordtest(){
-    FILE *outputile = fopen("_result", "w");
+    FILE *outputile = fopen("word_result", "w+");
     int i;
     int count = 0;
     while((i = nextsym()) != 1){
-        if(printdetails && i == 0){
+        if(i == 0){
             count++;
-            if(symid == INTCON)
+            if(symid == INTSY)
                 fprintf(outputile, "%d %s\t%d\n", count, sym, num);
             else
                 fprintf(outputile, "%d %s\t%s\n",count,  sym, buf);
