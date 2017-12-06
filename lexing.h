@@ -48,7 +48,7 @@
 #define MAX_wl      50       // max word length
 #define MAX_nl      10       // max number length
 #define MAX_ll      500      // max line length
-#define MAX_lc      200      // max line count
+#define MAX_lc      2000      // max line count
 #define MAX_sl      100      // max string length
 
 extern char word[15][10];
@@ -61,6 +61,7 @@ extern int cc;             //char count
 extern int lc;             //line count
 extern char ch;
 
+void nextloop();
 int nextsym();
 int nextch();
 int isword();

@@ -63,7 +63,7 @@
 
 1512194769 c:\users\41404\onedrive\大三上\编译\课程设计\15061036_彭骞_词法分析和设计\compiler-pq\global.h
 
-1512311813 source:c:\users\41404\onedrive\大三上\编译\课程设计\15061036_彭骞_词法分析和设计\compiler-pq\main.c
+1512311980 source:c:\users\41404\onedrive\大三上\编译\课程设计\15061036_彭骞_词法分析和设计\compiler-pq\main.c
 	<stdio.h>
 	<string.h>
 	"lexing.h"
@@ -106,4 +106,81 @@
 	"global.h"
 	"table.h"
 	"lexing.h"
+
+1512477150 source:c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\asm.c
+	<stdio.h>
+	<string.h>
+	"intermed.h"
+	"asm.h"
+	"table.h"
+	"err.h"
+
+1512476067 source:c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\err.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"lexing.h"
+	"err.h"
+
+1512322006 c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\lexing.h
+
+1512475979 c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\err.h
+
+1511917507 source:c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\optimization.c
+
+1512409146 source:c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\lexing.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"lexing.h"
+	"err.h"
+	"global.h"
+
+1512320703 c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\global.h
+
+1512477280 source:c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\main.c
+	<stdio.h>
+	<string.h>
+	"lexing.h"
+	"err.h"
+	"semantic.h"
+	"global.h"
+	"intermed.h"
+
+1512393014 c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\semantic.h
+
+1512475852 source:c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\semantic.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"intermed.h"
+	"err.h"
+	"semantic.h"
+	"global.h"
+	"table.h"
+	"lexing.h"
+
+1512448393 c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\intermed.h
+
+1512319723 c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\table.h
+
+1512409771 source:c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\table.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"err.h"
+	"global.h"
+	"table.h"
+
+1512469909 source:c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\intermed.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"lexing.h"
+	"err.h"
+	"intermed.h"
+	"table.h"
+	"global.h"
+
+1512476629 c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\asm.h
 

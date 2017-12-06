@@ -72,6 +72,10 @@
 
 #define LACK_LMBRACK            34  // (to HEAD)
 #define FACTOR_ERR              35
+#define LACK_RETURN             36
+
+// err  in asm.c
+#define MID_ERR                 37
 
 // deal type
 #define DONOTHING               0
@@ -79,5 +83,7 @@
 #define TOEND                   2
 #define TOENDMID                3
 #define FATAL                   4
+
+int errdect;
 int err(int type);
 FILE *erroutput;

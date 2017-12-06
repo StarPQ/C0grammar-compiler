@@ -5,6 +5,7 @@
 #include"err.h"
 int count = 0;
 int err(int type){
+    errdect = 1;
     count++;
     switch(type){
     case LINELENGTHERR:
@@ -148,6 +149,9 @@ int err(int type){
     case FACTOR_ERR:
         fprintf(erroutput, "%d FACTOR_ERR: l:%d c:%d\n", count, lc, cc, buf);
         deal(TOENDMID);
+        break;
+    case MID_ERR:
+        fprintf(erroutput, "%d MID_ERR:\n");
         break;
     }
     return 0;

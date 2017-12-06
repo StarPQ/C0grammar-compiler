@@ -49,7 +49,7 @@ void enterTable(char *name, int type, int detail, int value, int paranum){
     if(symlist[Top].type == FUNCTION){
         Level++;
     }
-    if(0) printf("++++%s, %d, %d\n", name, symlist[Top].level, symlist[Top].type);
+    if(1) printf("++++%s, %d, %d\n", name, symlist[Top].level, symlist[Top].type);
 }
 
 void pop(){
@@ -60,12 +60,12 @@ void pop(){
 }
 
 Link find(char *name){
-    if(0) printf("//Finding %s\n", name);
+    if(1) printf("//Finding %s\n", name);
     Link tmp;
     int i;
     for(i = 0; i <= Top; i++ ){
         if(strcmp(name, symlist[i].name) == 0 && (symlist[i].level == 0 || symlist[i].level == Level)){
-            if(0) printf("//Found %s\n", name);
+            if(1) printf("//Found %s\n", name);
             return &symlist[i];
         }
     }

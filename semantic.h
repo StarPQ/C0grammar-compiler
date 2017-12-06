@@ -27,3 +27,4 @@ void Printfsentence();
 void Returnsentence();
 
 int mainflag;
+char nowitem[ 200 ];
