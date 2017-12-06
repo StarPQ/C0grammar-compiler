@@ -5,8 +5,8 @@
 #include"err.h"
 #include"global.h"
 
-int cc = 0;             //char count
-int lc = 0;             //line count
+int cc = 1;             //char count
+int lc = 1;             //line count
 char ch;                //the character read now
 char buf[MAX_sl];
 int num = 0;
@@ -28,6 +28,16 @@ int wsym[15] = {
 
 // read next character
 // as all characters are decoded as ascii so return value is int type
+void nextloop(){
+    fseek( inputfile, 0, SEEK_SET );
+    ch = '\0';
+    cc = 1;
+    lc = 1;
+    num = 0;
+    buf[0] = '\0';
+    sym[0] = '\0';
+    symid = 0;
+}
 int nextch(){
     if(ch == EOF){
         err(REACHENDOFFILE);
@@ -96,6 +106,7 @@ int nextsym(){
         do{
             if(i < MAX_wl){
                 num = num*10 + ch - '0';
+                buf[i] == ch;
                 i++;
             }
             nextch();
@@ -266,7 +277,7 @@ int nextsym(){
         nextch();
         return 2;
     }
-    if(0){
+    if(1){
         if(symid == INTSY)
             printf("%s\t%d\n", sym, num);
         else

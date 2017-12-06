@@ -35,6 +35,7 @@
 		<Unit filename="asm.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="asm.h" />
 		<Unit filename="err.c">
 			<Option compilerVar="CC" />
 		</Unit>
