@@ -5,12 +5,13 @@
 #include"semantic.h"
 #include"global.h"
 #include"intermed.h"
+#include"asm.h"
 
 int debug = 1;
 int genmid = 0;
 int main(int argc,char** argv){
     //inputfile = fopen(argv[1], "r");
-    inputfile = fopen("c:/Users/41404/OneDrive/15061036_test.txt", "r");
+    inputfile = fopen("c:/Users/41404/OneDrive/15061035_test.txt", "r");
     //inputfile = fopen("c:/Users/41404/OneDrive/test.txt", "r");
     erroutput = fopen("_err", "w");
     FILE *outputile = fopen("_result", "w");
@@ -38,6 +39,7 @@ int main(int argc,char** argv){
     nextch();
     Program();
     printmidlist();
+    genTarCode();
     printf("FINISH!\n");
     return 0;
 }

@@ -9,6 +9,7 @@
 #include"lexing.h"
 
 int hasreturn;
+int mainlabel = 1;
 void Returnsentence(){
     //when coming in: buf --> 'return'
     if(debug) printf("This is a return sentence!\n");
@@ -98,17 +99,26 @@ void Paralist2pass(int paranum){
     if(debug) printf("This is a paralist2pass!\n");
     int i = 1;
     Expression();
+    insertMid("push", nowitem, EMPTY, EMPTY);
     while(symid == COMMA){
         nextsym();
         Expression();
         if(i < paranum){
-            insertMid("push", nowitem, EMPTY, EMPTY);
-            i++;
+            printf("push\n");
+            /*if(i == paranum - 1){
+                insertMid("pushJ", nowitem, EMPTY, EMPTY);
+                i++;
+            }
+            else{*/
+                insertMid("push", nowitem, EMPTY, EMPTY);
+                i++;
+            //}
         }
     }
+    printf("push %d para\n", i);
     if(i < paranum){
             err(LACK_NUM);// lack para
-        }
+    }
     return;
 }
 void Callfunc(){
@@ -134,6 +144,10 @@ void Callfunc(){
             return;
         }
     }
+    char l1[200] = {'\0'};
+    strcpy(l1, "LABEL_");
+    strcat(l1, func->name);
+    insertMid("jal", l1, EMPTY, EMPTY);
     return;
 }
 void Default(){
@@ -157,10 +171,12 @@ void Case(char* key, char* lexit){
     strcpy(l1, nextlabel());// apply a label
     nextsym();
     if(symid == PLUS || symid == MINUS){
-        strcpy(casex, buf);
+        int id = symid;
+        //strcpy(casex, buf);
         nextsym();
         if(symid == NUMBER){
-            strcat(casex, buf);
+            Factor(id);
+            strcat(casex, nowitem);
             strcpy(nowitem, nextvar());
             insertMid(nowitem, key, "==", casex);
             insertMid("BZ", nowitem, l1, EMPTY);
@@ -171,13 +187,17 @@ void Case(char* key, char* lexit){
         }
     }
     else if(symid == CHAR){
-        itoa(buf[0], casex, 10);
+        Factor(PLUS);
+        strcat(casex, nowitem);
+        //itoa(buf[0], casex, 10);
         strcpy(nowitem, nextvar());
         insertMid(nowitem, key, "==", casex);
         insertMid("BZ", nowitem, l1, EMPTY);
     }
     else if(symid == NUMBER){
-        strcpy(casex, buf);
+        Factor(PLUS);
+        strcat(casex, nowitem);
+        //strcpy(casex, buf);
         strcpy(nowitem, nextvar());
         insertMid(nowitem, key, "==", casex);
         insertMid("BZ", nowitem, l1, EMPTY);
@@ -186,7 +206,7 @@ void Case(char* key, char* lexit){
         err(ILLEGALSYM_ERR);
         return;
     }
-    nextsym();
+    //nextsym();
     if(symid == COLON){
         nextsym();
         Sentence();
@@ -428,13 +448,16 @@ void Factor(int op){
     //     }
     // }
     else if(symid == NUMBER){
-        strcpy(nowitem, buf);
+        char tmp[50] = {'\0'};
+        strcpy(nowitem, nextvar());
+        insertMid("li", nowitem, buf, EMPTY);
     }
     else if(symid == CHAR){
         // get ascii type char and transfor it to char*
         char topass[5] = {'\0'};
         itoa(buf[0], topass, 10);
-        strcpy(nowitem, topass);
+        strcpy(nowitem, nextvar());
+        insertMid("li", nowitem, topass, EMPTY);
     }
     else if(symid == LSBRACK){
         nextsym();
@@ -446,9 +469,13 @@ void Factor(int op){
     }
     nextsym();
     char addop[50] = {'\0'};
-    if(op == MINUS) strcpy(addop, "-\0");
-    strcat(addop, nowitem);
-    strcpy(nowitem, addop);
+    if(op == MINUS){
+        strcpy(addop, nowitem);
+        strcpy(nowitem, nextvar());
+        insertMid(nowitem, "\0", "-", addop);
+    }
+    // strcat(addop, nowitem);
+    // strcpy(nowitem, addop);
 }
 void Item(int op){
     //when coming in: buf --> identifier/num/etc
@@ -666,7 +693,7 @@ void Compound(){
 void Mainfunc(){
     //when coming in: buf --> '('
     if(debug) printf("This is a mainfunction!\n");\
-    insertMid("LABEL_MAIN:", EMPTY, EMPTY, EMPTY);
+    insertMid("LABEL_MAIN", ":", EMPTY, EMPTY);
     if(symid == LSBRACK){
         nextsym();
         if(symid != RSBRACK)
@@ -681,7 +708,7 @@ void Mainfunc(){
     char identifier[5];
     strcpy(identifier, "main");
     enterTable(identifier, MAINFUNCTION, NON, 0, 0);
-    insertMid("void", "main()", EMPTY, EMPTY);
+    insertMid("void", "main", "()", EMPTY);
     Compound();
     return;
 }
@@ -755,6 +782,7 @@ void Funcdef(int type, char *identifier, int ret){
             return;
         }
         tmp->paranum = paracount;
+        printf("func %s has %d paras\n", tmp->name, tmp->paranum);
         if(symid != RSBRACK){
             err(LACK_RSBRACK);
         }
@@ -774,7 +802,8 @@ void Funcdef(int type, char *identifier, int ret){
             err(LACK_RETURN);
         }
     }
-    insertMid("ret", EMPTY, EMPTY, EMPTY);
+    if(!hasreturn) insertMid("ret", EMPTY, EMPTY, EMPTY);
+    insertMid("end", EMPTY, EMPTY, EMPTY);
     return;
 }
 void Vardef(int type){
@@ -801,10 +830,8 @@ void Vardef(int type){
         else{
             detail = ARRAY;
             paranum = num;
-            char listlen[6];
-            strcpy(listlen, "[\0");
-            strcat(listlen, buf);
-            strcat(listlen, "]\0");
+            char listlen[6] = {'\0'};
+            strcpy(listlen, buf);
             if(type == INTTYPE)insertMid("var", "int", identifier, listlen);
             else insertMid("var", "char", identifier, listlen);
         }
@@ -836,8 +863,8 @@ void Varstate(int type, char *identifier){
         if(symid == NUMBER){
             paranum = num;
             detail = ARRAY;
-            char listlen[6];
-            strcat(listlen, buf);
+            char listlen[6] = {'\0'};
+            strcpy(listlen, buf);
             nextsym();
             if(symid == RMBRACK){
                 enterTable(identifier, type, detail, 0, paranum);
@@ -920,10 +947,18 @@ int Statehead(int type){
         return VARIABLE;
     }
     else if(statetype == FUNCTION){
+        if(mainlabel){
+            insertMid("goto", "LABEL_MAIN", EMPTY, EMPTY);
+            mainlabel = 0;
+        }
         Funcdef(type, identifier, ret);
         return FUNCTION;
     }
     else if(statetype == MAINFUNCTION){
+        if(mainlabel){
+            insertMid("goto", "LABEL_MAIN", EMPTY, EMPTY);
+            mainlabel = 0;
+        }
         Mainfunc();
         return MAINFUNCTION;
     }
@@ -949,9 +984,17 @@ void Constdef(int type){
         }
         nextsym();
         if(symid == PLUS || symid == MINUS){
+            int id = symid;
             nextsym();
             if(symid == NUMBER){
                 value = num;
+                if(id == MINUS){
+                    char tmp[200] = {'\0'};
+                    strcpy(tmp, "-");
+                    strcat(tmp, buf);
+                    insertMid("const int", identifier, "=", tmp);
+                }
+                else insertMid("const int", identifier, "=", buf);
             }
             else{
                 err(LACK_NUM);
@@ -1017,10 +1060,10 @@ void Conststate(){
     return;
 }
 void Program(){
-    insertMid("goto", "LABEL_MAIN", EMPTY, EMPTY);
     Top = -1;
     Level = 0;
     mainflag = 0;
+    mainlabel = 1;
     if(debug) printf("This is a program!\n");
     nextsym();
     //const state

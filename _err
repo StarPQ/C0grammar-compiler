@@ -1,0 +1,366 @@
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#a0<--0
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#b0<---4
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#c0<---8
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#d0<---12
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inx<---16
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#0<---20
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#1<---24
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#2<---28
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#3<---32
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#4<---36
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#5<---40
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#6<---44
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#7<---48
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#8<---52
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#9<---56
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#10<---60
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#11<---64
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#12<---68
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#13<---72
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#14<---76
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#15<---80
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#16<---84
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#17<---88
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#18<---92
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#19<---96
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#20<---100
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#21<---104
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#inarr#22<---108
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#charx<---112
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#chararr#0<---116
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 0	#chararr#1<---120
+L+1
+para	int	a	
+mystack-->a0 0
+mystack-->b0 0
+mystack-->c0 0
+mystack-->d0 0
+mystack-->inx 0
+mystack-->inarr#0 0
+mystack-->inarr#1 0
+mystack-->inarr#2 0
+mystack-->inarr#3 0
+mystack-->inarr#4 0
+mystack-->inarr#5 0
+mystack-->inarr#6 0
+mystack-->inarr#7 0
+mystack-->inarr#8 0
+mystack-->inarr#9 0
+mystack-->inarr#10 0
+mystack-->inarr#11 0
+mystack-->inarr#12 0
+mystack-->inarr#13 0
+mystack-->inarr#14 0
+mystack-->inarr#15 0
+mystack-->inarr#16 0
+mystack-->inarr#17 0
+mystack-->inarr#18 0
+mystack-->inarr#19 0
+mystack-->inarr#20 0
+mystack-->inarr#21 0
+mystack-->inarr#22 0
+mystack-->charx 0
+mystack-->chararr#0 0
+mystack-->chararr#1 0
+mystack-->a 1
+para	int	a	
+para: a 1
+para	char	b	
+mystack-->a0 0
+mystack-->b0 0
+mystack-->c0 0
+mystack-->d0 0
+mystack-->inx 0
+mystack-->inarr#0 0
+mystack-->inarr#1 0
+mystack-->inarr#2 0
+mystack-->inarr#3 0
+mystack-->inarr#4 0
+mystack-->inarr#5 0
+mystack-->inarr#6 0
+mystack-->inarr#7 0
+mystack-->inarr#8 0
+mystack-->inarr#9 0
+mystack-->inarr#10 0
+mystack-->inarr#11 0
+mystack-->inarr#12 0
+mystack-->inarr#13 0
+mystack-->inarr#14 0
+mystack-->inarr#15 0
+mystack-->inarr#16 0
+mystack-->inarr#17 0
+mystack-->inarr#18 0
+mystack-->inarr#19 0
+mystack-->inarr#20 0
+mystack-->inarr#21 0
+mystack-->inarr#22 0
+mystack-->charx 0
+mystack-->chararr#0 0
+mystack-->chararr#1 0
+mystack-->a 1
+mystack-->b 1
+para	char	b	
+para: b 1
+L-0
+L+1
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#q<--0
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#p<---4
+sync q level: 1
+sync p level: 1
+sync q level: 1
+sync q level: 1
+sync p level: 1
+sync q level: 1
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#$t0<---8
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $13 1	#$t4<---12
+---addr is -4
+store: $14 0	#<--0
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $22 1	#$t12<---16
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $18 1	#$t8<---20
+sync q level: 1
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $9 1	#$t1<---24
+L-0
+L+1
+para	char	b	
+mystack-->a0 0
+mystack-->b0 0
+mystack-->c0 0
+mystack-->d0 0
+mystack-->inx 0
+mystack-->inarr#0 0
+mystack-->inarr#1 0
+mystack-->inarr#2 0
+mystack-->inarr#3 0
+mystack-->inarr#4 0
+mystack-->inarr#5 0
+mystack-->inarr#6 0
+mystack-->inarr#7 0
+mystack-->inarr#8 0
+mystack-->inarr#9 0
+mystack-->inarr#10 0
+mystack-->inarr#11 0
+mystack-->inarr#12 0
+mystack-->inarr#13 0
+mystack-->inarr#14 0
+mystack-->inarr#15 0
+mystack-->inarr#16 0
+mystack-->inarr#17 0
+mystack-->inarr#18 0
+mystack-->inarr#19 0
+mystack-->inarr#20 0
+mystack-->inarr#21 0
+mystack-->inarr#22 0
+mystack-->charx 0
+mystack-->chararr#0 0
+mystack-->chararr#1 0
+mystack-->b 1
+para	char	b	
+para: b 1
+para	int	c	
+mystack-->a0 0
+mystack-->b0 0
+mystack-->c0 0
+mystack-->d0 0
+mystack-->inx 0
+mystack-->inarr#0 0
+mystack-->inarr#1 0
+mystack-->inarr#2 0
+mystack-->inarr#3 0
+mystack-->inarr#4 0
+mystack-->inarr#5 0
+mystack-->inarr#6 0
+mystack-->inarr#7 0
+mystack-->inarr#8 0
+mystack-->inarr#9 0
+mystack-->inarr#10 0
+mystack-->inarr#11 0
+mystack-->inarr#12 0
+mystack-->inarr#13 0
+mystack-->inarr#14 0
+mystack-->inarr#15 0
+mystack-->inarr#16 0
+mystack-->inarr#17 0
+mystack-->inarr#18 0
+mystack-->inarr#19 0
+mystack-->inarr#20 0
+mystack-->inarr#21 0
+mystack-->inarr#22 0
+mystack-->charx 0
+mystack-->chararr#0 0
+mystack-->chararr#1 0
+mystack-->b 1
+mystack-->c 1
+para	int	c	
+para: c 1
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#maa<---8
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#mbb<---12
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#chh<---16
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#chn<---20
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#chj<---24
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#aaa<---28
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#bbb<---32
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#ccc#0<---36
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#ccc#1<---40
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#ccc#2<---44
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#ccc#3<---48
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#ddd<---52
+sync aaa level: 1
+sync bbb level: 1
+sync aaa level: 1
+sync ccc#2 level: 1
+L-0
+L+1
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#tmp<--0
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#t#0<---4
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#t#1<---8
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#t#2<---12
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#t#3<---16
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#t#4<---20
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#t#5<---24
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#t#6<---28
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#t#7<---32
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#t#8<---36
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#t#9<---40
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#_as<---44
+sync _as level: 1
+sync t#2 level: 1
+sync tmp level: 1
+sync t#1 level: 1
+L-0
+L+1
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#z<--0
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#x<---4
+---addr is 1
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+store: $8 1	#y<---8
+sync y level: 1
+sync z level: 1
+sync x level: 1

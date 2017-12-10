@@ -31,7 +31,9 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="Makefile" />
+		<Unit filename="_err">
+			<Option target="Release" />
+		</Unit>
 		<Unit filename="asm.c">
 			<Option compilerVar="CC" />
 		</Unit>

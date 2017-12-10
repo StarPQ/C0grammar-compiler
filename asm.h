@@ -1,27 +1,35 @@
 #define INITSTACK   0x7fffeffc
 #define INITDATA    0x10010000
 #define REGNUM      16
-#define MAX_STACK   10000
+#define MAX_STACK   1000
+
+#define INITADDR 1
 
 #define CINT        0
 #define CCHAR       1
 #define TEMP        2
 #define PARA        3
-#define ADDR        4
+#define AINT        4
+#define ACHAR       5
+#define $SP         6
+#define $RA         7
 
 typedef struct{
-    char id[2];
+    char id[5];
     char name[200];
     int type;
     int level;
     int inuse;
+    int address;
 }reg;
-reg reglist[REGNUM];
+extern reg reglist[REGNUM+1];
 
 typedef struct{
-    char name[20];
+    char name[200];
     int type;
     int address;
     int level;
 }stacknode;
-stacknode stack[MAX_STACK];
+extern stacknode mystack[MAX_STACK];
+
+void genTarCode();

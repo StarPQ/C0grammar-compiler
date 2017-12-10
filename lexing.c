@@ -106,7 +106,7 @@ int nextsym(){
         do{
             if(i < MAX_wl){
                 num = num*10 + ch - '0';
-                buf[i] == ch;
+                buf[i] = ch;
                 i++;
             }
             nextch();
@@ -277,7 +277,7 @@ int nextsym(){
         nextch();
         return 2;
     }
-    if(1){
+    if(debug){
         if(symid == INTSY)
             printf("%s\t%d\n", sym, num);
         else
