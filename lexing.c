@@ -59,7 +59,6 @@ int nextch(){
         cc++;
         if(cc > MAX_ll) err(LINELENGTHERR);
     }
-    if(isupper(ch)) ch = tolower(ch);//ignore upper alpha
     return 0;
 }
 
@@ -86,6 +85,7 @@ int nextsym(){
     buf[i] = ch;
     if(isalpha(ch) || ch == '_'){
         do{
+            if(isupper(ch)) ch = tolower(ch);//ignore upper alpha
             if(i < MAX_wl){
                 buf[i] = ch;
                 i++;
@@ -182,6 +182,10 @@ int nextsym(){
                 do{
                     if(ch == 32 || ch == 33 || (ch >=35 && ch <=126)){
                         if(i < MAX_sl){
+                            if(ch == '\\'){
+                                buf[i] = '\\';
+                                i++;
+                            }
                             buf[i] = ch;
                             i++;
                         }

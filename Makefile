@@ -19,6 +19,3 @@ optimization.o : optimization.c
 asm.o : asm.c
 	cc -c asm.c
 
-.PHONY : clean
-       clean :
-               -rm edit $(objects)

@@ -28,5 +28,6 @@ int Level;
 void enterTable(char *name, int type, int detail, int value, int paranum);
 void pop();
 Link find(char *name);
+Link deffind(char *name);
 //there should have a type of error that define function
 // not on level 0. reject that operation

@@ -1,7 +1,7 @@
 #define INITSTACK   0x7fffeffc
 #define INITDATA    0x10010000
 #define REGNUM      16
-#define MAX_STACK   1000
+#define MAX_STACK   100000
 
 #define INITADDR 1
 
@@ -10,7 +10,7 @@
 #define TEMP        2
 #define PARA        3
 #define AINT        4
-#define ACHAR       5
+#define TCHAR       5
 #define $SP         6
 #define $RA         7
 
@@ -33,3 +33,4 @@ typedef struct{
 extern stacknode mystack[MAX_STACK];
 
 void genTarCode();
+void opt();

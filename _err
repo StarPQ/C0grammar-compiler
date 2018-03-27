@@ -1,366 +1,2222 @@
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#a0<--0
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#b0<---4
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#c0<---8
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#d0<---12
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inx<---16
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#0<---20
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#1<---24
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#2<---28
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#3<---32
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#4<---36
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#5<---40
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#6<---44
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#7<---48
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#8<---52
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#9<---56
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#10<---60
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#11<---64
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#12<---68
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#13<---72
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#14<---76
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#15<---80
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#16<---84
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#17<---88
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#18<---92
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#19<---96
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#20<---100
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#21<---104
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#inarr#22<---108
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#charx<---112
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#chararr#0<---116
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 0	#chararr#1<---120
-L+1
-para	int	a	
-mystack-->a0 0
-mystack-->b0 0
-mystack-->c0 0
-mystack-->d0 0
-mystack-->inx 0
-mystack-->inarr#0 0
-mystack-->inarr#1 0
-mystack-->inarr#2 0
-mystack-->inarr#3 0
-mystack-->inarr#4 0
-mystack-->inarr#5 0
-mystack-->inarr#6 0
-mystack-->inarr#7 0
-mystack-->inarr#8 0
-mystack-->inarr#9 0
-mystack-->inarr#10 0
-mystack-->inarr#11 0
-mystack-->inarr#12 0
-mystack-->inarr#13 0
-mystack-->inarr#14 0
-mystack-->inarr#15 0
-mystack-->inarr#16 0
-mystack-->inarr#17 0
-mystack-->inarr#18 0
-mystack-->inarr#19 0
-mystack-->inarr#20 0
-mystack-->inarr#21 0
-mystack-->inarr#22 0
-mystack-->charx 0
-mystack-->chararr#0 0
-mystack-->chararr#1 0
-mystack-->a 1
-para	int	a	
-para: a 1
-para	char	b	
-mystack-->a0 0
-mystack-->b0 0
-mystack-->c0 0
-mystack-->d0 0
-mystack-->inx 0
-mystack-->inarr#0 0
-mystack-->inarr#1 0
-mystack-->inarr#2 0
-mystack-->inarr#3 0
-mystack-->inarr#4 0
-mystack-->inarr#5 0
-mystack-->inarr#6 0
-mystack-->inarr#7 0
-mystack-->inarr#8 0
-mystack-->inarr#9 0
-mystack-->inarr#10 0
-mystack-->inarr#11 0
-mystack-->inarr#12 0
-mystack-->inarr#13 0
-mystack-->inarr#14 0
-mystack-->inarr#15 0
-mystack-->inarr#16 0
-mystack-->inarr#17 0
-mystack-->inarr#18 0
-mystack-->inarr#19 0
-mystack-->inarr#20 0
-mystack-->inarr#21 0
-mystack-->inarr#22 0
-mystack-->charx 0
-mystack-->chararr#0 0
-mystack-->chararr#1 0
-mystack-->a 1
-mystack-->b 1
-para	char	b	
-para: b 1
-L-0
-L+1
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#q<--0
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#p<---4
-sync q level: 1
-sync p level: 1
-sync q level: 1
-sync q level: 1
-sync p level: 1
-sync q level: 1
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#$t0<---8
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $13 1	#$t4<---12
----addr is -4
-store: $14 0	#<--0
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $22 1	#$t12<---16
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $18 1	#$t8<---20
-sync q level: 1
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $9 1	#$t1<---24
-L-0
-L+1
-para	char	b	
-mystack-->a0 0
-mystack-->b0 0
-mystack-->c0 0
-mystack-->d0 0
-mystack-->inx 0
-mystack-->inarr#0 0
-mystack-->inarr#1 0
-mystack-->inarr#2 0
-mystack-->inarr#3 0
-mystack-->inarr#4 0
-mystack-->inarr#5 0
-mystack-->inarr#6 0
-mystack-->inarr#7 0
-mystack-->inarr#8 0
-mystack-->inarr#9 0
-mystack-->inarr#10 0
-mystack-->inarr#11 0
-mystack-->inarr#12 0
-mystack-->inarr#13 0
-mystack-->inarr#14 0
-mystack-->inarr#15 0
-mystack-->inarr#16 0
-mystack-->inarr#17 0
-mystack-->inarr#18 0
-mystack-->inarr#19 0
-mystack-->inarr#20 0
-mystack-->inarr#21 0
-mystack-->inarr#22 0
-mystack-->charx 0
-mystack-->chararr#0 0
-mystack-->chararr#1 0
-mystack-->b 1
-para	char	b	
-para: b 1
-para	int	c	
-mystack-->a0 0
-mystack-->b0 0
-mystack-->c0 0
-mystack-->d0 0
-mystack-->inx 0
-mystack-->inarr#0 0
-mystack-->inarr#1 0
-mystack-->inarr#2 0
-mystack-->inarr#3 0
-mystack-->inarr#4 0
-mystack-->inarr#5 0
-mystack-->inarr#6 0
-mystack-->inarr#7 0
-mystack-->inarr#8 0
-mystack-->inarr#9 0
-mystack-->inarr#10 0
-mystack-->inarr#11 0
-mystack-->inarr#12 0
-mystack-->inarr#13 0
-mystack-->inarr#14 0
-mystack-->inarr#15 0
-mystack-->inarr#16 0
-mystack-->inarr#17 0
-mystack-->inarr#18 0
-mystack-->inarr#19 0
-mystack-->inarr#20 0
-mystack-->inarr#21 0
-mystack-->inarr#22 0
-mystack-->charx 0
-mystack-->chararr#0 0
-mystack-->chararr#1 0
-mystack-->b 1
-mystack-->c 1
-para	int	c	
-para: c 1
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#maa<---8
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#mbb<---12
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#chh<---16
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#chn<---20
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#chj<---24
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#aaa<---28
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#bbb<---32
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#ccc#0<---36
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#ccc#1<---40
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#ccc#2<---44
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#ccc#3<---48
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#ddd<---52
-sync aaa level: 1
-sync bbb level: 1
-sync aaa level: 1
-sync ccc#2 level: 1
-L-0
-L+1
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#tmp<--0
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#t#0<---4
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#t#1<---8
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#t#2<---12
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#t#3<---16
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#t#4<---20
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#t#5<---24
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#t#6<---28
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#t#7<---32
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#t#8<---36
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#t#9<---40
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#_as<---44
-sync _as level: 1
-sync t#2 level: 1
-sync tmp level: 1
-sync t#1 level: 1
-L-0
-L+1
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#z<--0
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#x<---4
----addr is 1
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-store: $8 1	#y<---8
-sync y level: 1
-sync z level: 1
+store: $8 0	#cona<--0
+store: $8 0	#conb<---4
+store: $8 0	#conc<---8
+store: $8 0	#_cha<---12
+store: $8 0	#chb#0<---16
+store: $8 0	#chb#1<---20
+store: $8 0	#chb#2<---24
+store: $8 0	#chb#3<---28
+store: $8 0	#chb#4<---32
+store: $8 0	#chb#5<---36
+store: $8 0	#chc<---40
+store: $8 0	#chd<---44
+%para	int	x	
+para: x 1
+%para	int	y	
+para: y 1
+store: $8 1	#z<---8
+@@@found $t0 with addr=1
+store: $9 0	#<--0
+store: $8 1	#$t0<---12
+@@@found $t1 with addr=1
+store: $8 0	#<--0
+store: $9 0	#<--0
+@@@found $t2 with addr=1
+store: $11 1	#$t2<---16
+store: $10 1	#$t1<---20
+@@@found $t3 with addr=1
+store: $9 0	#<--0
+store: $8 1	#$t3<---24
+@@@found $t4 with addr=1
+store: $10 1	#$t4<---28
 sync x level: 1
+lcount = 8   sc = 20
+lcount = 8   sc = 20
+store: $8 2	#<--0
+store: $9 2	#<--0
+@@@found $t5 with addr=1
+store: $10 1	#$t5<---32
+L-0
+%para	int	a	
+para: a 1
+%para	int	b	
+para: b 1
+store: $8 1	#z<---8
+store: $9 1	#z<---8
+@@@found $t0 with addr=1
+@@@found $t1 with addr=1
+store: $8 1	#$t1<---8
+store: $10 1	#$t0<---12
+store: $8 1	#$t2<---16
+store: $9 1	#$t2<---16
+@@@found $t2 with addr=1
+@@@found $t3 with addr=1
+store: $8 1	#$t3<---16
+@@@found $t4 with addr=1
+store: $9 1	#$t4<---20
+store: $10 1	#$t2<---24
+L-0
+%para	int	n	
+para: n 1
+%para	int	m	
+para: m 1
+store: $8 1	#i<---8
+store: $8 1	#j<---12
+store: $8 1	#stpos#0<---16
+store: $8 1	#stpos#1<---20
+store: $8 1	#stpos#2<---24
+store: $8 1	#stpos#3<---28
+store: $8 1	#stpos#4<---32
+store: $8 1	#stpos#5<---36
+store: $8 1	#stpos#6<---40
+store: $8 1	#stpos#7<---44
+store: $8 1	#stpos#8<---48
+store: $8 1	#stpos#9<---52
+store: $8 1	#stpos#10<---56
+store: $8 1	#stpos#11<---60
+store: $8 1	#stpos#12<---64
+store: $8 1	#stpos#13<---68
+store: $8 1	#stpos#14<---72
+store: $8 1	#stpos#15<---76
+store: $8 1	#stpos#16<---80
+store: $8 1	#stpos#17<---84
+store: $8 1	#stpos#18<---88
+store: $8 1	#stpos#19<---92
+store: $8 1	#stpos#20<---96
+store: $8 1	#stpos#21<---100
+store: $8 1	#stpos#22<---104
+store: $8 1	#stpos#23<---108
+store: $8 1	#stpos#24<---112
+store: $8 1	#stpos#25<---116
+store: $8 1	#stpos#26<---120
+store: $8 1	#stpos#27<---124
+store: $8 1	#stpos#28<---128
+store: $8 1	#stpos#29<---132
+store: $8 1	#stpos#30<---136
+store: $8 1	#stpos#31<---140
+store: $8 1	#stpos#32<---144
+store: $8 1	#stpos#33<---148
+store: $8 1	#stpos#34<---152
+store: $8 1	#stpos#35<---156
+store: $8 1	#stpos#36<---160
+store: $8 1	#stpos#37<---164
+store: $8 1	#stpos#38<---168
+store: $8 1	#stpos#39<---172
+store: $8 1	#stpos#40<---176
+store: $8 1	#stpos#41<---180
+store: $8 1	#stpos#42<---184
+store: $8 1	#stpos#43<---188
+store: $8 1	#stpos#44<---192
+store: $8 1	#stpos#45<---196
+store: $8 1	#stpos#46<---200
+store: $8 1	#stpos#47<---204
+store: $8 1	#stpos#48<---208
+store: $8 1	#stpos#49<---212
+store: $8 1	#stpos#50<---216
+store: $8 1	#stpos#51<---220
+store: $8 1	#stpos#52<---224
+store: $8 1	#stpos#53<---228
+store: $8 1	#stpos#54<---232
+store: $8 1	#stpos#55<---236
+store: $8 1	#stpos#56<---240
+store: $8 1	#stpos#57<---244
+store: $8 1	#stpos#58<---248
+store: $8 1	#stpos#59<---252
+store: $8 1	#stpos#60<---256
+store: $8 1	#stpos#61<---260
+store: $8 1	#stpos#62<---264
+store: $8 1	#stpos#63<---268
+store: $8 1	#stpos#64<---272
+store: $8 1	#stpos#65<---276
+store: $8 1	#stpos#66<---280
+store: $8 1	#stpos#67<---284
+store: $8 1	#stpos#68<---288
+store: $8 1	#stpos#69<---292
+store: $8 1	#stpos#70<---296
+store: $8 1	#stpos#71<---300
+store: $8 1	#stpos#72<---304
+store: $8 1	#stpos#73<---308
+store: $8 1	#stpos#74<---312
+store: $8 1	#stpos#75<---316
+store: $8 1	#stpos#76<---320
+store: $8 1	#stpos#77<---324
+store: $8 1	#stpos#78<---328
+store: $8 1	#stpos#79<---332
+store: $8 1	#stpos#80<---336
+store: $8 1	#stpos#81<---340
+store: $8 1	#stpos#82<---344
+store: $8 1	#stpos#83<---348
+store: $8 1	#stpos#84<---352
+store: $8 1	#stpos#85<---356
+store: $8 1	#stpos#86<---360
+store: $8 1	#stpos#87<---364
+store: $8 1	#stpos#88<---368
+store: $8 1	#stpos#89<---372
+store: $8 1	#stpos#90<---376
+store: $8 1	#stpos#91<---380
+store: $8 1	#stpos#92<---384
+store: $8 1	#stpos#93<---388
+store: $8 1	#stpos#94<---392
+store: $8 1	#stpos#95<---396
+store: $8 1	#stpos#96<---400
+store: $8 1	#stpos#97<---404
+store: $8 1	#stpos#98<---408
+store: $8 1	#stpos#99<---412
+store: $8 1	#posst#0<---416
+store: $8 1	#posst#1<---420
+store: $8 1	#posst#2<---424
+store: $8 1	#posst#3<---428
+store: $8 1	#posst#4<---432
+store: $8 1	#posst#5<---436
+store: $8 1	#posst#6<---440
+store: $8 1	#posst#7<---444
+store: $8 1	#posst#8<---448
+store: $8 1	#posst#9<---452
+store: $8 1	#posst#10<---456
+store: $8 1	#posst#11<---460
+store: $8 1	#posst#12<---464
+store: $8 1	#posst#13<---468
+store: $8 1	#posst#14<---472
+store: $8 1	#posst#15<---476
+store: $8 1	#posst#16<---480
+store: $8 1	#posst#17<---484
+store: $8 1	#posst#18<---488
+store: $8 1	#posst#19<---492
+store: $8 1	#posst#20<---496
+store: $8 1	#posst#21<---500
+store: $8 1	#posst#22<---504
+store: $8 1	#posst#23<---508
+store: $8 1	#posst#24<---512
+store: $8 1	#posst#25<---516
+store: $8 1	#posst#26<---520
+store: $8 1	#posst#27<---524
+store: $8 1	#posst#28<---528
+store: $8 1	#posst#29<---532
+store: $8 1	#posst#30<---536
+store: $8 1	#posst#31<---540
+store: $8 1	#posst#32<---544
+store: $8 1	#posst#33<---548
+store: $8 1	#posst#34<---552
+store: $8 1	#posst#35<---556
+store: $8 1	#posst#36<---560
+store: $8 1	#posst#37<---564
+store: $8 1	#posst#38<---568
+store: $8 1	#posst#39<---572
+store: $8 1	#posst#40<---576
+store: $8 1	#posst#41<---580
+store: $8 1	#posst#42<---584
+store: $8 1	#posst#43<---588
+store: $8 1	#posst#44<---592
+store: $8 1	#posst#45<---596
+store: $8 1	#posst#46<---600
+store: $8 1	#posst#47<---604
+store: $8 1	#posst#48<---608
+store: $8 1	#posst#49<---612
+store: $8 1	#posst#50<---616
+store: $8 1	#posst#51<---620
+store: $8 1	#posst#52<---624
+store: $8 1	#posst#53<---628
+store: $8 1	#posst#54<---632
+store: $8 1	#posst#55<---636
+store: $8 1	#posst#56<---640
+store: $8 1	#posst#57<---644
+store: $8 1	#posst#58<---648
+store: $8 1	#posst#59<---652
+store: $8 1	#posst#60<---656
+store: $8 1	#posst#61<---660
+store: $8 1	#posst#62<---664
+store: $8 1	#posst#63<---668
+store: $8 1	#posst#64<---672
+store: $8 1	#posst#65<---676
+store: $8 1	#posst#66<---680
+store: $8 1	#posst#67<---684
+store: $8 1	#posst#68<---688
+store: $8 1	#posst#69<---692
+store: $8 1	#posst#70<---696
+store: $8 1	#posst#71<---700
+store: $8 1	#posst#72<---704
+store: $8 1	#posst#73<---708
+store: $8 1	#posst#74<---712
+store: $8 1	#posst#75<---716
+store: $8 1	#posst#76<---720
+store: $8 1	#posst#77<---724
+store: $8 1	#posst#78<---728
+store: $8 1	#posst#79<---732
+store: $8 1	#posst#80<---736
+store: $8 1	#posst#81<---740
+store: $8 1	#posst#82<---744
+store: $8 1	#posst#83<---748
+store: $8 1	#posst#84<---752
+store: $8 1	#posst#85<---756
+store: $8 1	#posst#86<---760
+store: $8 1	#posst#87<---764
+store: $8 1	#posst#88<---768
+store: $8 1	#posst#89<---772
+store: $8 1	#posst#90<---776
+store: $8 1	#posst#91<---780
+store: $8 1	#posst#92<---784
+store: $8 1	#posst#93<---788
+store: $8 1	#posst#94<---792
+store: $8 1	#posst#95<---796
+store: $8 1	#posst#96<---800
+store: $8 1	#posst#97<---804
+store: $8 1	#posst#98<---808
+store: $8 1	#posst#99<---812
+store: $8 1	#p<---816
+store: $8 1	#q<---820
+store: $8 1	#move<---824
+store: $8 1	#end<---828
+store: $8 1	#po1<---832
+store: $8 1	#po2<---836
+store: $8 1	#st2<---840
+@@@found $t0 with addr=1
+store: $8 1	#$t0<---844
+sync i level: 1
+@@@found $t1 with addr=1
+store: $8 1	#$t1<---848
+sync j level: 1
+@@@found i with addr=-8
+@@@found i with addr=-8
+@@@found $t2 with addr=1
+store: $9 0	#<--0
+store: $8 1	#$t2<---852
+@@@found $t3 with addr=1
+store: $10 1	#$t3<---856
+sync i level: 1
+store: $8 0	#<--0
+store: $9 0	#<--0
+@@@found $t4 with addr=1
+@@@found i with addr=-8
+@@@found i with addr=-8
+@@@found $t5 with addr=1
+store: $9 0	#<--0
+store: $8 1	#$t5<---860
+@@@found $t6 with addr=1
+store: $11 1	#$t6<---864
+sync i level: 1
+store: $10 1	#$t4<---868
+@@@found $t7 with addr=1
+store: $8 1	#$t7<---872
+sync i level: 1
+@@@found $t8 with addr=1
+store: $9 0	#<--0
+store: $8 1	#$t8<---876
+@@@found $t9 with addr=1
+@@@found $t10 with addr=1
+store: $8 1	#$t10<---880
+sync p level: 1
+@@@found $t11 with addr=1
+store: $8 1	#$t11<---884
+sync q level: 1
+store: $10 1	#$t9<---888
+@@@found $t12 with addr=1
+store: $9 0	#<--0
+store: $8 1	#$t12<---892
+@@@found $t13 with addr=1
+@@@found $t14 with addr=1
+store: $8 1	#$t14<---896
+sync p level: 1
+@@@found $t15 with addr=1
+store: $8 1	#$t15<---900
+@@@found $t16 with addr=1
+store: $9 1	#$t16<---904
+sync q level: 1
+store: $10 1	#$t13<---908
+@@@found $t17 with addr=1
+store: $9 0	#<--0
+store: $8 1	#$t17<---912
+@@@found $t18 with addr=1
+@@@found $t19 with addr=1
+store: $8 1	#$t19<---916
+sync p level: 1
+@@@found $t20 with addr=1
+store: $8 1	#$t20<---920
+@@@found $t21 with addr=1
+store: $9 1	#$t21<---924
+sync q level: 1
+store: $10 1	#$t18<---928
+@@@found $t22 with addr=1
+store: $9 0	#<--0
+store: $8 1	#$t22<---932
+@@@found $t23 with addr=1
+store: $10 1	#$t23<---936
+lcount = 235   sc = 247
+@@@found $t24 with addr=1
+lcount = 235   sc = 247
+@@@found $t25 with addr=1
+store: $8 1	#$t25<---940
+sync move level: 1
+store: $8 0	#<--0
+store: $9 0	#<--0
+@@@found $t26 with addr=1
+store: $10 1	#$t26<---944
+sync end level: 1
+@@@found $t27 with addr=1
+store: $9 1	#$t27<---948
+sync po1 level: 1
+store: $8 0	#<--0
+store: $9 0	#<--0
+@@@found $t28 with addr=1
+@@@found $t29 with addr=1
+store: $8 1	#$t29<---952
+sync st2 level: 1
+@@@found $t30 with addr=1
+store: $9 1	#$t30<---956
+sync po2 level: 1
+@@@found st2 with addr=-840
+@@@found po1 with addr=-832
+store: $8 0	#<--0
+sync po1 level: 1
+@@@found $t31 with addr=1
+store: $9 0	#<--0
+store: $8 1	#$t31<---960
+@@@found $t32 with addr=1
+store: $10 1	#$t32<---964
+sync j level: 1
+store: $8 0	#<--0
+store: $9 0	#<--0
+@@@found $t33 with addr=1
+store: $8 0	#<--0
+store: $9 0	#<--0
+@@@found $t34 with addr=1
+@@@found $t35 with addr=1
+store: $8 1	#$t35<---968
+sync st2 level: 1
+@@@found $t36 with addr=1
+store: $9 1	#$t36<---972
+sync po2 level: 1
+@@@found st2 with addr=-840
+@@@found po1 with addr=-832
+store: $8 0	#<--0
+sync po1 level: 1
+@@@found $t37 with addr=1
+store: $9 0	#<--0
+store: $8 1	#$t37<---976
+@@@found $t38 with addr=1
+store: $11 1	#$t38<---980
+sync j level: 1
+store: $10 1	#$t33<---984
+@@@found p with addr=-816
+@@@found $t39 with addr=1
+store: $9 1	#$t39<---988
+store: $8 0	#<--0
+@@@found $t40 with addr=1
+store: $10 1	#$t40<---992
+@@@found $t41 with addr=1
+store: $9 0	#<--0
+store: $8 1	#$t41<---996
+@@@found $t42 with addr=1
+store: $10 1	#$t42<---1000
+sync i level: 1
+store: $8 0	#<--0
+store: $9 0	#<--0
+@@@found $t43 with addr=1
+@@@found $t44 with addr=1
+store: $9 0	#<--0
+store: $8 1	#$t44<---1004
+@@@found $t45 with addr=1
+@@@found $t46 with addr=1
+store: $8 1	#$t46<---1008
+sync p level: 1
+@@@found $t47 with addr=1
+store: $8 1	#$t47<---1012
+sync q level: 1
+store: $10 1	#$t43<---1016
+store: $11 1	#$t45<---1020
+@@@found $t48 with addr=1
+store: $9 0	#<--0
+store: $8 1	#$t48<---1024
+@@@found $t49 with addr=1
+@@@found $t50 with addr=1
+store: $8 1	#$t50<---1028
+sync p level: 1
+@@@found $t51 with addr=1
+store: $8 1	#$t51<---1032
+@@@found $t52 with addr=1
+store: $9 1	#$t52<---1036
+sync q level: 1
+store: $10 1	#$t49<---1040
+@@@found $t53 with addr=1
+store: $9 0	#<--0
+store: $8 1	#$t53<---1044
+@@@found $t54 with addr=1
+@@@found $t55 with addr=1
+store: $8 1	#$t55<---1048
+sync p level: 1
+@@@found $t56 with addr=1
+store: $8 1	#$t56<---1052
+@@@found $t57 with addr=1
+store: $9 1	#$t57<---1056
+sync q level: 1
+store: $10 1	#$t54<---1060
+@@@found $t58 with addr=1
+store: $9 0	#<--0
+store: $8 1	#$t58<---1064
+@@@found $t59 with addr=1
+store: $10 1	#$t59<---1068
+lcount = 268   sc = 280
+@@@found $t60 with addr=1
+lcount = 268   sc = 280
+@@@found $t61 with addr=1
+store: $8 1	#$t61<---1072
+sync move level: 1
+store: $8 0	#<--0
+store: $9 0	#<--0
+@@@found $t62 with addr=1
+store: $10 1	#$t62<---1076
+sync end level: 1
+@@@found $t63 with addr=1
+store: $9 1	#$t63<---1080
+sync po1 level: 1
+store: $8 0	#<--0
+store: $9 0	#<--0
+@@@found $t64 with addr=1
+@@@found $t65 with addr=1
+store: $8 1	#$t65<---1084
+sync st2 level: 1
+@@@found $t66 with addr=1
+store: $9 1	#$t66<---1088
+sync po2 level: 1
+@@@found st2 with addr=-840
+@@@found po1 with addr=-832
+store: $8 0	#<--0
+sync po1 level: 1
+@@@found $t67 with addr=1
+store: $9 0	#<--0
+store: $8 1	#$t67<---1092
+@@@found $t68 with addr=1
+store: $10 1	#$t68<---1096
+sync j level: 1
+store: $8 0	#<--0
+store: $9 0	#<--0
+@@@found $t69 with addr=1
+store: $8 0	#<--0
+store: $9 0	#<--0
+@@@found $t70 with addr=1
+@@@found $t71 with addr=1
+store: $8 1	#$t71<---1100
+sync st2 level: 1
+@@@found $t72 with addr=1
+store: $9 1	#$t72<---1104
+sync po2 level: 1
+@@@found st2 with addr=-840
+@@@found po1 with addr=-832
+store: $8 0	#<--0
+sync po1 level: 1
+@@@found $t73 with addr=1
+store: $9 0	#<--0
+store: $8 1	#$t73<---1108
+@@@found $t74 with addr=1
+store: $11 1	#$t74<---1112
+sync j level: 1
+store: $10 1	#$t69<---1116
+@@@found p with addr=-816
+@@@found $t75 with addr=1
+store: $9 1	#$t75<---1120
+store: $8 0	#<--0
+@@@found $t76 with addr=1
+store: $10 1	#$t76<---1124
+@@@found $t77 with addr=1
+store: $9 0	#<--0
+store: $8 1	#$t77<---1128
+@@@found $t78 with addr=1
+store: $10 1	#$t78<---1132
+sync i level: 1
+@@@found $t79 with addr=1
+@@@found $t80 with addr=1
+@@@found $t81 with addr=1
+store: $8 1	#$t81<---1136
+sync i level: 1
+@@@found $t82 with addr=1
+@@@found $t83 with addr=1
+store: $11 0	#<--0
+store: $8 1	#$t83<---1140
+@@@found $t84 with addr=1
+store: $12 1	#$t84<---1144
+sync i level: 1
+store: $9 1	#$t80<---1148
+store: $10 1	#$t82<---1152
+store: $8 0	#<--0
+store: $9 0	#<--0
+@@@found $t85 with addr=1
+@@@found $t86 with addr=1
+@@@found $t87 with addr=1
+store: $11 0	#<--0
+store: $8 1	#$t87<---1156
+@@@found $t88 with addr=1
+store: $12 1	#$t88<---1160
+sync i level: 1
+store: $9 1	#$t86<---1164
+store: $10 1	#$t85<---1168
+store: $8 0	#<--0
+L-0
+%para	char	x	
+para: x 1
+store: $8 1	#z2<---4
+@@@found $t0 with addr=1
+store: $8 1	#$t0<---8
+sync z2 level: 1
+store: $8 1	#j<---12
+store: $9 1	#j<---12
+@@@found $t1 with addr=1
+store: $10 1	#$t1<---12
+sync x level: 1
+store: $8 1	#stpos#0<---16
+L-0
+%para	int	n	
+para: n 1
+store: $8 1	#result<---4
+@@@found $t0 with addr=1
+store: $9 1	#$t0<---8
+store: $8 1	#$t0<---8
+@@@found $t1 with addr=1
+@@@found $t2 with addr=1
+store: $8 1	#$t2<---12
+store: $10 1	#$t1<---16
+@@@found $t3 with addr=1
+store: $9 1	#stpos#1<---20
+store: $8 1	#$t3<---20
+@@@found $t4 with addr=1
+@@@found $t5 with addr=1
+store: $8 1	#$t5<---24
+store: $10 1	#$t4<---28
+lcount = 8   sc = 20
+@@@found $t6 with addr=1
+store: $9 1	#stpos#4<---32
+store: $8 1	#$t6<--0
+@@@found $t7 with addr=1
+lcount = 8   sc = 20
+store: $8 1	#$t8<---32
+lcount = 9   sc = 21
+@@@found $t9 with addr=1
+store: $9 1	#stpos#5<---36
+store: $8 1	#$t9<--0
+@@@found $t10 with addr=1
+lcount = 9   sc = 21
+@@@found $t11 with addr=1
+store: $9 2	#<--0
+store: $8 1	#$t11<---36
+@@@found $t12 with addr=1
+store: $10 1	#$t12<---40
+sync result level: 1
+store: $8 1	#stpos#7<---44
+L-0
+store: $8 1	#a#0<--0
+store: $8 1	#a#1<---4
+store: $8 1	#a#2<---8
+store: $8 1	#a#3<---12
+store: $8 1	#a#4<---16
+store: $8 1	#a#5<---20
+store: $8 1	#a#6<---24
+store: $8 1	#a#7<---28
+store: $8 1	#a#8<---32
+store: $8 1	#a#9<---36
+store: $8 1	#a#10<---40
+store: $8 1	#a#11<---44
+store: $8 1	#a#12<---48
+store: $8 1	#a#13<---52
+store: $8 1	#a#14<---56
+store: $8 1	#b#0<---60
+store: $8 1	#b#1<---64
+store: $8 1	#b#2<---68
+store: $8 1	#b#3<---72
+store: $8 1	#b#4<---76
+store: $8 1	#b#5<---80
+store: $8 1	#b#6<---84
+store: $8 1	#b#7<---88
+store: $8 1	#b#8<---92
+store: $8 1	#b#9<---96
+store: $8 1	#b#10<---100
+store: $8 1	#b#11<---104
+store: $8 1	#b#12<---108
+store: $8 1	#b#13<---112
+store: $8 1	#b#14<---116
+@@@found $t0 with addr=1
+store: $8 1	#$t0<---120
+sync a#0 level: 1
+@@@found $t1 with addr=1
+store: $8 1	#$t1<---124
+sync b#1 level: 1
+@@@found $t2 with addr=1
+store: $8 1	#$t2<---128
+sync a#3 level: 1
+@@@found $t3 with addr=1
+store: $8 1	#$t3<---132
+sync b#4 level: 1
+@@@found $t4 with addr=1
+store: $8 1	#$t4<---136
+sync a#6 level: 1
+@@@found $t5 with addr=1
+@@@found $t6 with addr=1
+@@@found $t7 with addr=1
+@@@found $t8 with addr=1
+@@@found $t9 with addr=1
+@@@found $t11 with addr=1
+@@@found $t10 with addr=1
+@@@found $t12 with addr=1
+@@@found $t14 with addr=1
+@@@found $t13 with addr=1
+@@@found $t15 with addr=1
+store: $10 1	#$t13<---140
+store: $11 1	#$t15<---144
+@@@found $t16 with addr=1
+@@@found $t16 with addr=1
+store: $9 1	#$t16<---148
+L-0
+%para	char	x	
+para: x 1
+@@@found $t0 with addr=1
+store: $9 1	#a#1<---4
+store: $8 1	#$t0<---4
+@@@found $t1 with addr=1
+@@@found $t1 with addr=1
+store: $10 1	#$t1<---8
+@@@found $t2 with addr=1
+store: $9 1	#a#3<---12
+store: $8 1	#$t2<---12
+@@@found $t3 with addr=1
+store: $10 1	#$t3<---16
+sync x level: 1
+store: $8 1	#a#5<---20
+lcount = 5   sc = 17
+lcount = 5   sc = 17
+store: $8 2	#<--0
+L-0
+store: $8 1	#coz<--0
+store: $8 1	#a<---4
+store: $8 1	#b<---8
+store: $8 1	#c<---12
+store: $8 1	#d<---16
+store: $8 1	#key<---20
+store: $8 1	#i<---24
+store: $8 1	#sz2#0<---28
+store: $8 1	#sz2#1<---32
+store: $8 1	#sz2#2<---36
+store: $8 1	#sz2#3<---40
+store: $8 1	#sz2#4<---44
+store: $8 1	#cho<---48
+store: $8 1	#sz#0<---52
+store: $8 1	#sz#1<---56
+store: $8 1	#sz#2<---60
+store: $8 1	#sz#3<---64
+store: $8 1	#sz#4<---68
+store: $8 1	#e<---72
+@@@found $t0 with addr=1
+store: $8 1	#$t0<---76
+sync chc level: 0
+@@@found $t1 with addr=1
+store: $8 1	#$t1<---80
+sync chd level: 0
+@@@found $t2 with addr=1
+store: $8 1	#$t2<---84
+sync b level: 1
+@@@found $t3 with addr=1
+store: $8 1	#$t3<---88
+sync i level: 1
+@@@found $t4 with addr=1
+store: $8 1	#$t4<---92
+@@@found $t5 with addr=1
+store: $9 1	#$t5<---96
+sync c level: 1
+@@@found $t6 with addr=1
+store: $8 1	#$t6<---100
+sync key level: 1
+sync cho level: 1
+@@@found $t7 with addr=1
+store: $9 1	#b#11<---104
+store: $8 1	#$t7<---104
+@@@found $t8 with addr=1
+store: $10 1	#$t8<---108
+lcount = 28   sc = 40
+@@@found $t9 with addr=1
+@@@found $t10 with addr=1
+lcount = 28   sc = 40
+@@@found $t11 with addr=1
+store: $9 2	#<--0
+store: $8 1	#$t11<---112
+@@@found $t12 with addr=1
+store: $10 1	#$t12<---116
+lcount = 30   sc = 42
+lcount = 30   sc = 42
+@@@found $t13 with addr=1
+store: $8 1	#$t13<---120
+sync d level: 1
+store: $8 1	#$t1<---124
+@@@found $t14 with addr=1
+store: $9 1	#$t1<---124
+store: $8 1	#$t14<---124
+@@@found $t15 with addr=1
+@@@found $t16 with addr=1
+@@@found i with addr=-24
+@@@found $t17 with addr=1
+store: $11 1	#$t2<---128
+store: $9 1	#$t17<---128
+@@@found $t18 with addr=1
+store: $12 1	#$t18<---132
+sync i level: 1
+store: $8 1	#$t16<---136
+store: $10 1	#$t15<---140
+@@@found $t19 with addr=1
+store: $9 1	#$t15<---144
+store: $8 1	#$t19<---144
+@@@found $t20 with addr=1
+@@@found $t21 with addr=1
+@@@found i with addr=-24
+@@@found $t22 with addr=1
+store: $11 1	#$t16<---148
+store: $9 1	#$t22<---148
+@@@found $t23 with addr=1
+store: $12 1	#$t23<---152
+sync i level: 1
+store: $8 1	#$t21<---156
+store: $10 1	#$t20<---160
+sync key level: 1
+sync a level: 1
+@@@found $t24 with addr=1
+store: $9 1	#stpos#37<---164
+store: $8 1	#$t24<---164
+@@@found $t25 with addr=1
+store: $8 1	#stpos#38<---168
+store: $9 1	#stpos#38<---168
+@@@found $t26 with addr=1
+store: $11 1	#$t26<---168
+sync a level: 1
+store: $8 1	#stpos#39<---172
+store: $10 1	#$t25<---172
+@@@found $t27 with addr=1
+store: $9 1	#stpos#40<---176
+store: $8 1	#$t27<---176
+@@@found $t28 with addr=1
+store: $8 1	#stpos#41<---180
+store: $9 1	#stpos#41<---180
+@@@found $t29 with addr=1
+store: $11 1	#$t29<---180
+sync b level: 1
+@@@found $t30 with addr=1
+@@@found $t31 with addr=1
+store: $9 1	#$t31<---184
+store: $8 1	#stpos#43<---188
+@@@found $t32 with addr=1
+store: $11 1	#$t32<---188
+sync sz2#0 level: 1
+@@@found $t33 with addr=1
+@@@found $t34 with addr=1
+@@@found $t35 with addr=1
+store: $9 1	#$t34<---192
+store: $8 1	#$t35<---196
+@@@found $t36 with addr=1
+store: $11 1	#$t36<---200
+sync sz#0 level: 1
+@@@found $t37 with addr=1
+@@@found $t38 with addr=1
+@@@found $t39 with addr=1
+@@@found $t40 with addr=1
+store: $8 1	#stpos#47<---204
+store: $10 1	#$t28<---204
+store: $11 1	#$t38<---208
+store: $12 1	#$t40<---212
+@@@found $t41 with addr=1
+store: $9 1	#stpos#50<---216
+store: $8 1	#$t41<---216
+@@@found $t42 with addr=1
+store: $8 1	#stpos#51<---220
+store: $9 1	#stpos#51<---220
+@@@found $t43 with addr=1
+store: $11 1	#$t43<---220
+sync c level: 1
+@@@found $t44 with addr=1
+@@@found $t45 with addr=1
+store: $9 1	#$t45<---224
+store: $8 1	#stpos#53<---228
+@@@found $t46 with addr=1
+store: $11 1	#$t46<---228
+sync sz2#1 level: 1
+@@@found $t47 with addr=1
+@@@found $t48 with addr=1
+@@@found $t49 with addr=1
+store: $9 1	#$t48<---232
+store: $8 1	#$t49<---236
+@@@found $t50 with addr=1
+store: $11 1	#$t50<---240
+sync sz#1 level: 1
+@@@found $t51 with addr=1
+@@@found $t52 with addr=1
+@@@found $t53 with addr=1
+@@@found $t54 with addr=1
+store: $8 1	#stpos#57<---244
+store: $10 1	#$t42<---244
+store: $11 1	#$t52<---248
+store: $12 1	#$t54<---252
+@@@found $t55 with addr=1
+store: $9 1	#stpos#60<---256
+store: $8 1	#$t55<---256
+@@@found $t56 with addr=1
+store: $8 1	#stpos#61<---260
+store: $9 1	#stpos#61<---260
+@@@found $t57 with addr=1
+store: $11 1	#$t57<---260
+sync d level: 1
+@@@found $t58 with addr=1
+@@@found $t59 with addr=1
+store: $9 1	#$t59<---264
+store: $8 1	#stpos#63<---268
+@@@found $t60 with addr=1
+store: $11 1	#$t60<---268
+sync sz2#2 level: 1
+@@@found $t61 with addr=1
+@@@found $t62 with addr=1
+@@@found $t63 with addr=1
+store: $9 1	#$t62<---272
+store: $8 1	#$t63<---276
+@@@found $t64 with addr=1
+store: $11 1	#$t64<---280
+sync sz#2 level: 1
+@@@found $t65 with addr=1
+@@@found $t66 with addr=1
+@@@found $t67 with addr=1
+@@@found $t68 with addr=1
+store: $8 1	#stpos#67<---284
+store: $10 1	#$t56<---284
+store: $11 1	#$t66<---288
+store: $12 1	#$t68<---292
+@@@found $t69 with addr=1
+store: $9 1	#stpos#70<---296
+store: $8 1	#$t69<---296
+@@@found $t70 with addr=1
+@@@found $t71 with addr=1
+store: $8 1	#$t71<---300
+store: $9 1	#stpos#72<---304
+@@@found $t72 with addr=1
+store: $8 1	#stpos#72<---304
+store: $11 1	#$t72<---304
+@@@found $t73 with addr=1
+store: $9 1	#$t73<---308
+sync a level: 1
+@@@found $t74 with addr=1
+@@@found $t75 with addr=1
+store: $9 1	#$t75<---312
+store: $8 1	#stpos#75<---316
+@@@found $t76 with addr=1
+@@@found $t77 with addr=1
+store: $11 1	#$t76<---316
+store: $8 1	#$t77<---320
+@@@found $t78 with addr=1
+store: $9 1	#$t78<---324
+sync sz2#3 level: 1
+@@@found $t79 with addr=1
+@@@found $t80 with addr=1
+@@@found $t81 with addr=1
+store: $9 1	#$t80<---328
+store: $8 1	#$t81<---332
+@@@found $t82 with addr=1
+store: $11 1	#$t82<---336
+sync sz#3 level: 1
+@@@found $t83 with addr=1
+@@@found $t84 with addr=1
+@@@found $t85 with addr=1
+@@@found $t86 with addr=1
+store: $8 1	#stpos#81<---340
+store: $10 1	#$t70<---340
+store: $11 1	#$t84<---344
+store: $12 1	#$t86<---348
+@@@found $t87 with addr=1
+store: $9 1	#stpos#84<---352
+store: $8 1	#$t87<---352
+@@@found $t88 with addr=1
+store: $8 1	#stpos#85<---356
+@@@found $t90 with addr=1
+store: $8 1	#$t90<---356
+store: $11 1	#stpos#86<---360
+@@@found $t89 with addr=1
+@@@found $t91 with addr=1
+store: $9 1	#$t89<---360
+store: $12 1	#$t91<---364
+@@@found $t92 with addr=1
+store: $8 1	#$t92<---368
+sync a level: 1
+@@@found $t93 with addr=1
+@@@found $t94 with addr=1
+@@@found $t95 with addr=1
+store: $9 1	#$t94<---372
+store: $8 1	#$t95<---376
+@@@found $t96 with addr=1
+store: $11 1	#$t96<---380
+sync sz#4 level: 1
+@@@found $t97 with addr=1
+@@@found $t98 with addr=1
+@@@found $t99 with addr=1
+@@@found $t100 with addr=1
+store: $8 1	#stpos#92<---384
+store: $10 1	#$t88<---384
+store: $11 1	#$t98<---388
+store: $12 1	#$t100<---392
+store: $8 1	#stpos#95<---396
+store: $9 1	#stpos#95<---396
+@@@found $t101 with addr=1
+store: $9 1	#stpos#95<---396
+store: $8 1	#$t101<---396
+@@@found $t102 with addr=1
+store: $8 1	#stpos#96<---400
+store: $10 1	#$t102<---400
+lcount = 101   sc = 113
+@@@found $t103 with addr=1
+store: $8 1	#$t103<--0
+@@@found $t104 with addr=1
+@@@found $t105 with addr=1
+lcount = 101   sc = 113
+@@@found $t107 with addr=1
+@@@found $t108 with addr=1
+store: $9 1	#$t107<---404
+store: $10 1	#$t108<---408
+@@@found $t109 with addr=1
+store: $11 1	#$t109<---412
+store: $9 1	#posst#0<---416
+@@@found $t106 with addr=1
+@@@found $t110 with addr=1
+store: $8 1	#$t106<---416
+store: $10 1	#$t110<---420
+@@@found $t111 with addr=1
+store: $9 1	#$t111<---424
+sync sz2#4 level: 1
+lcount = 107   sc = 119
+lcount = 107   sc = 119
+lcount = 107   sc = 119
+@@@found $t112 with addr=1
+lcount = 107   sc = 119
+@@@found $t113 with addr=1
+@@@found $t114 with addr=1
+@@@found $t115 with addr=1
+store: $8 1	#$t113<---428
+store: $10 1	#$t115<---432
+@@@found $t116 with addr=1
+store: $9 1	#posst#5<---436
+store: $8 1	#$t116<---436
+@@@found $t117 with addr=1
+sync key level: 1
+@@@found $t118 with addr=1
+store: $9 1	#posst#6<---440
+store: $8 1	#$t118<---440
+@@@found $t119 with addr=1
+@@@found $t120 with addr=1
+store: $11 1	#$t119<---444
+store: $8 1	#$t120<---448
+@@@found $t121 with addr=1
+store: $9 1	#$t121<---452
+store: $10 1	#$t117<---456
+@@@found $t122 with addr=1
+store: $9 1	#posst#11<---460
+store: $8 1	#$t122<---460
+@@@found $t123 with addr=1
+store: $8 1	#posst#12<---464
+store: $10 1	#$t123<---464
+@@@found $t124 with addr=1
+store: $9 1	#posst#13<---468
+store: $8 1	#$t124<---468
+@@@found $t125 with addr=1
+store: $10 1	#$t125<---472
+sync e level: 1
+@@@found $t126 with addr=1
+store: $9 1	#posst#15<---476
+store: $8 1	#$t126<---476
+@@@found $t127 with addr=1
+@@@found $t128 with addr=1
+store: $8 1	#$t128<---480
+store: $10 1	#$t127<---484
+@@@found $t129 with addr=1
+store: $9 1	#posst#18<---488
+store: $8 1	#$t129<---488
+@@@found $t130 with addr=1
+@@@found $t132 with addr=1
+store: $9 1	#$t132<---492
+@@@found $t131 with addr=1
+@@@found $t133 with addr=1
+store: $8 1	#$t131<---496
+store: $11 1	#$t133<---500
+@@@found $t134 with addr=1
+store: $9 1	#$t134<---504
+store: $10 1	#$t130<---508
+lcount = 128   sc = 140
+lcount = 128   sc = 140
+alloc: $8 0	#cona<--0
+alloc: $9 0	#conb<---4
+alloc: $10 0	#conc<---8
+alloc: $11 0	#_cha<---12
+alloc: $12 0	#chb#0<---16
+alloc: $13 0	#chb#1<---20
+alloc: $14 0	#chb#2<---24
+alloc: $15 0	#chb#3<---28
+alloc: $16 0	#chb#4<---32
+alloc: $17 0	#chb#5<---36
+alloc: $18 0	#chc<---40
+alloc: $19 0	#chd<---44
+store: $16 1	#coz<--0
+store: $17 1	#coz<--0
+store: $18 1	#coz<--0
+store: $19 1	#coz<--0
+store: $8 1	#coz<--0
+store: $9 1	#coz<--0
+store: $10 1	#coz<--0
+store: $11 1	#coz<--0
+store: $12 1	#coz<--0
+store: $13 1	#coz<--0
+store: $14 1	#coz<--0
+store: $15 1	#coz<--0
+%para	int	x	
+para: x 1
+%para	int	y	
+para: y 1
+alloc: $8 1	#z<---8
+@@@found $t0 with addr=1
+@@@found $t1 with addr=1
+store: $8 1	#c<---12
+store: $10 1	#c<---12
+store: $11 1	#$t1<---12
+@@@found $t2 with addr=1
+store: $8 1	#d<---16
+@@@found $t3 with addr=1
+@@@found $t4 with addr=1
+@@@found x with addr=0
+opsync x level: 1
+store: $8 1	#$t3<---16
+store: $9 1	#key<---20
+store: $10 1	#$t4<---20
+lcount = 6   sc = 18
+lcount = 6   sc = 18
+@@@found $t5 with addr=1
+L-0
+%para	int	a	
+para: a 1
+%para	int	b	
+para: b 1
+@@@found $t0 with addr=1
+store: $8 1	#z<---8
+store: $9 1	#z<---8
+store: $10 1	#$t0<---8
+@@@found $t1 with addr=1
+store: $8 1	#$t1<---12
+@@@found $t2 with addr=1
+store: $10 1	#$t2<---16
+@@@found $t3 with addr=1
+@@@found $t4 with addr=1
+store: $8 1	#$t3<---20
+L-0
+%para	int	n	
+para: n 1
+%para	int	m	
+para: m 1
+alloc: $8 1	#i<---8
+alloc: $9 1	#j<---12
+alloc: $10 1	#stpos#0<---16
+alloc: $11 1	#stpos#1<---20
+alloc: $12 1	#stpos#2<---24
+alloc: $13 1	#stpos#3<---28
+alloc: $14 1	#stpos#4<---32
+alloc: $15 1	#stpos#5<---36
+alloc: $16 1	#stpos#6<---40
+alloc: $17 1	#stpos#7<---44
+alloc: $18 1	#stpos#8<---48
+alloc: $19 1	#stpos#9<---52
+alloc: $20 1	#stpos#10<---56
+alloc: $21 1	#stpos#11<---60
+alloc: $22 1	#stpos#12<---64
+alloc: $23 1	#stpos#13<---68
+store: $21 1	#e<---72
+alloc: $21 1	#stpos#14<---72
+store: $18 1	#$t0<---76
+alloc: $18 1	#stpos#15<---76
+store: $8 1	#$t1<---80
+alloc: $8 1	#stpos#16<---80
+store: $22 1	#$t2<---84
+alloc: $22 1	#stpos#17<---84
+store: $9 1	#$t3<---88
+alloc: $9 1	#stpos#18<---88
+store: $13 1	#$t4<---92
+alloc: $13 1	#stpos#19<---92
+store: $16 1	#$t5<---96
+alloc: $16 1	#stpos#20<---96
+store: $11 1	#$t6<---100
+alloc: $11 1	#stpos#21<---100
+store: $15 1	#$t7<---104
+alloc: $15 1	#stpos#22<---104
+store: $10 1	#$t8<---108
+alloc: $10 1	#stpos#23<---108
+store: $12 1	#$t11<---112
+alloc: $12 1	#stpos#24<---112
+store: $23 1	#$t12<---116
+alloc: $23 1	#stpos#25<---116
+store: $19 1	#$t13<---120
+alloc: $19 1	#stpos#26<---120
+store: $20 1	#$t14<---124
+alloc: $20 1	#stpos#27<---124
+store: $14 1	#$t17<---128
+alloc: $14 1	#stpos#28<---128
+store: $17 1	#$t18<---132
+alloc: $17 1	#stpos#29<---132
+store: $21 1	#$t16<---136
+alloc: $21 1	#stpos#30<---136
+store: $18 1	#$t15<---140
+alloc: $18 1	#stpos#31<---140
+store: $8 1	#$t19<---144
+alloc: $8 1	#stpos#32<---144
+store: $22 1	#$t22<---148
+alloc: $22 1	#stpos#33<---148
+store: $9 1	#$t23<---152
+alloc: $9 1	#stpos#34<---152
+store: $13 1	#$t21<---156
+alloc: $13 1	#stpos#35<---156
+store: $16 1	#$t20<---160
+alloc: $16 1	#stpos#36<---160
+store: $11 1	#$t24<---164
+alloc: $11 1	#stpos#37<---164
+store: $15 1	#$t26<---168
+alloc: $15 1	#stpos#38<---168
+store: $10 1	#$t25<---172
+alloc: $10 1	#stpos#39<---172
+store: $12 1	#$t27<---176
+alloc: $12 1	#stpos#40<---176
+store: $23 1	#$t29<---180
+alloc: $23 1	#stpos#41<---180
+store: $19 1	#$t31<---184
+alloc: $19 1	#stpos#42<---184
+store: $20 1	#$t32<---188
+alloc: $20 1	#stpos#43<---188
+store: $14 1	#$t34<---192
+alloc: $14 1	#stpos#44<---192
+store: $17 1	#$t35<---196
+alloc: $17 1	#stpos#45<---196
+store: $21 1	#$t36<---200
+alloc: $21 1	#stpos#46<---200
+store: $18 1	#$t28<---204
+alloc: $18 1	#stpos#47<---204
+store: $8 1	#$t38<---208
+alloc: $8 1	#stpos#48<---208
+store: $22 1	#$t40<---212
+alloc: $22 1	#stpos#49<---212
+store: $9 1	#$t41<---216
+alloc: $9 1	#stpos#50<---216
+store: $13 1	#$t43<---220
+alloc: $13 1	#stpos#51<---220
+store: $16 1	#$t45<---224
+alloc: $16 1	#stpos#52<---224
+store: $11 1	#$t46<---228
+alloc: $11 1	#stpos#53<---228
+store: $15 1	#$t48<---232
+alloc: $15 1	#stpos#54<---232
+store: $10 1	#$t49<---236
+alloc: $10 1	#stpos#55<---236
+store: $12 1	#$t50<---240
+alloc: $12 1	#stpos#56<---240
+store: $23 1	#$t42<---244
+alloc: $23 1	#stpos#57<---244
+store: $19 1	#$t52<---248
+alloc: $19 1	#stpos#58<---248
+store: $20 1	#$t54<---252
+alloc: $20 1	#stpos#59<---252
+store: $14 1	#$t55<---256
+alloc: $14 1	#stpos#60<---256
+store: $17 1	#$t57<---260
+alloc: $17 1	#stpos#61<---260
+store: $21 1	#$t59<---264
+alloc: $21 1	#stpos#62<---264
+store: $18 1	#$t60<---268
+alloc: $18 1	#stpos#63<---268
+store: $8 1	#$t62<---272
+alloc: $8 1	#stpos#64<---272
+store: $22 1	#$t63<---276
+alloc: $22 1	#stpos#65<---276
+store: $9 1	#$t64<---280
+alloc: $9 1	#stpos#66<---280
+store: $13 1	#$t56<---284
+alloc: $13 1	#stpos#67<---284
+store: $16 1	#$t66<---288
+alloc: $16 1	#stpos#68<---288
+store: $11 1	#$t68<---292
+alloc: $11 1	#stpos#69<---292
+store: $15 1	#$t69<---296
+alloc: $15 1	#stpos#70<---296
+store: $10 1	#$t71<---300
+alloc: $10 1	#stpos#71<---300
+store: $12 1	#$t72<---304
+alloc: $12 1	#stpos#72<---304
+store: $23 1	#$t73<---308
+alloc: $23 1	#stpos#73<---308
+store: $19 1	#$t75<---312
+alloc: $19 1	#stpos#74<---312
+store: $20 1	#$t76<---316
+alloc: $20 1	#stpos#75<---316
+store: $14 1	#$t77<---320
+alloc: $14 1	#stpos#76<---320
+store: $17 1	#$t78<---324
+alloc: $17 1	#stpos#77<---324
+store: $21 1	#$t80<---328
+alloc: $21 1	#stpos#78<---328
+store: $18 1	#$t81<---332
+alloc: $18 1	#stpos#79<---332
+store: $8 1	#$t82<---336
+alloc: $8 1	#stpos#80<---336
+store: $22 1	#$t70<---340
+alloc: $22 1	#stpos#81<---340
+store: $9 1	#$t84<---344
+alloc: $9 1	#stpos#82<---344
+store: $13 1	#$t86<---348
+alloc: $13 1	#stpos#83<---348
+store: $16 1	#$t87<---352
+alloc: $16 1	#stpos#84<---352
+store: $11 1	#$t90<---356
+alloc: $11 1	#stpos#85<---356
+store: $15 1	#$t89<---360
+alloc: $15 1	#stpos#86<---360
+store: $10 1	#$t91<---364
+alloc: $10 1	#stpos#87<---364
+store: $12 1	#$t92<---368
+alloc: $12 1	#stpos#88<---368
+store: $23 1	#$t94<---372
+alloc: $23 1	#stpos#89<---372
+store: $19 1	#$t95<---376
+alloc: $19 1	#stpos#90<---376
+store: $20 1	#$t96<---380
+alloc: $20 1	#stpos#91<---380
+store: $14 1	#$t88<---384
+alloc: $14 1	#stpos#92<---384
+store: $17 1	#$t98<---388
+alloc: $17 1	#stpos#93<---388
+store: $21 1	#$t100<---392
+alloc: $21 1	#stpos#94<---392
+store: $18 1	#$t101<---396
+alloc: $18 1	#stpos#95<---396
+store: $8 1	#$t102<---400
+alloc: $8 1	#stpos#96<---400
+store: $22 1	#$t107<---404
+alloc: $22 1	#stpos#97<---404
+store: $9 1	#$t108<---408
+alloc: $9 1	#stpos#98<---408
+store: $13 1	#$t109<---412
+alloc: $13 1	#stpos#99<---412
+store: $16 1	#$t106<---416
+alloc: $16 1	#posst#0<---416
+store: $11 1	#$t110<---420
+alloc: $11 1	#posst#1<---420
+store: $15 1	#$t111<---424
+alloc: $15 1	#posst#2<---424
+store: $10 1	#$t113<---428
+alloc: $10 1	#posst#3<---428
+store: $12 1	#$t115<---432
+alloc: $12 1	#posst#4<---432
+store: $23 1	#$t116<---436
+alloc: $23 1	#posst#5<---436
+store: $19 1	#$t118<---440
+alloc: $19 1	#posst#6<---440
+store: $20 1	#$t119<---444
+alloc: $20 1	#posst#7<---444
+store: $14 1	#$t120<---448
+alloc: $14 1	#posst#8<---448
+store: $17 1	#$t121<---452
+alloc: $17 1	#posst#9<---452
+store: $21 1	#$t117<---456
+alloc: $21 1	#posst#10<---456
+store: $18 1	#$t122<---460
+alloc: $18 1	#posst#11<---460
+store: $8 1	#$t123<---464
+alloc: $8 1	#posst#12<---464
+store: $22 1	#$t124<---468
+alloc: $22 1	#posst#13<---468
+store: $9 1	#$t125<---472
+alloc: $9 1	#posst#14<---472
+store: $13 1	#$t126<---476
+alloc: $13 1	#posst#15<---476
+store: $16 1	#$t128<---480
+alloc: $16 1	#posst#16<---480
+store: $11 1	#$t127<---484
+alloc: $11 1	#posst#17<---484
+store: $15 1	#$t129<---488
+alloc: $15 1	#posst#18<---488
+store: $10 1	#$t132<---492
+alloc: $10 1	#posst#19<---492
+store: $12 1	#$t131<---496
+alloc: $12 1	#posst#20<---496
+store: $23 1	#$t133<---500
+alloc: $23 1	#posst#21<---500
+store: $19 1	#$t134<---504
+alloc: $19 1	#posst#22<---504
+store: $20 1	#$t130<---508
+alloc: $20 1	#posst#23<---508
+store: $14 1	#posst#24<---512
+alloc: $14 1	#posst#24<---512
+store: $17 1	#posst#25<---516
+alloc: $17 1	#posst#25<---516
+store: $21 1	#posst#26<---520
+alloc: $21 1	#posst#26<---520
+store: $18 1	#posst#27<---524
+alloc: $18 1	#posst#27<---524
+store: $8 1	#posst#28<---528
+alloc: $8 1	#posst#28<---528
+store: $22 1	#posst#29<---532
+alloc: $22 1	#posst#29<---532
+store: $9 1	#posst#30<---536
+alloc: $9 1	#posst#30<---536
+store: $13 1	#posst#31<---540
+alloc: $13 1	#posst#31<---540
+store: $16 1	#posst#32<---544
+alloc: $16 1	#posst#32<---544
+store: $11 1	#posst#33<---548
+alloc: $11 1	#posst#33<---548
+store: $15 1	#posst#34<---552
+alloc: $15 1	#posst#34<---552
+store: $10 1	#posst#35<---556
+alloc: $10 1	#posst#35<---556
+store: $12 1	#posst#36<---560
+alloc: $12 1	#posst#36<---560
+store: $23 1	#posst#37<---564
+alloc: $23 1	#posst#37<---564
+store: $19 1	#posst#38<---568
+alloc: $19 1	#posst#38<---568
+store: $20 1	#posst#39<---572
+alloc: $20 1	#posst#39<---572
+store: $14 1	#posst#40<---576
+alloc: $14 1	#posst#40<---576
+store: $17 1	#posst#41<---580
+alloc: $17 1	#posst#41<---580
+store: $21 1	#posst#42<---584
+alloc: $21 1	#posst#42<---584
+store: $18 1	#posst#43<---588
+alloc: $18 1	#posst#43<---588
+store: $8 1	#posst#44<---592
+alloc: $8 1	#posst#44<---592
+store: $22 1	#posst#45<---596
+alloc: $22 1	#posst#45<---596
+store: $9 1	#posst#46<---600
+alloc: $9 1	#posst#46<---600
+store: $13 1	#posst#47<---604
+alloc: $13 1	#posst#47<---604
+store: $16 1	#posst#48<---608
+alloc: $16 1	#posst#48<---608
+store: $11 1	#posst#49<---612
+alloc: $11 1	#posst#49<---612
+store: $15 1	#posst#50<---616
+alloc: $15 1	#posst#50<---616
+store: $10 1	#posst#51<---620
+alloc: $10 1	#posst#51<---620
+store: $12 1	#posst#52<---624
+alloc: $12 1	#posst#52<---624
+store: $23 1	#posst#53<---628
+alloc: $23 1	#posst#53<---628
+store: $19 1	#posst#54<---632
+alloc: $19 1	#posst#54<---632
+store: $20 1	#posst#55<---636
+alloc: $20 1	#posst#55<---636
+store: $14 1	#posst#56<---640
+alloc: $14 1	#posst#56<---640
+store: $17 1	#posst#57<---644
+alloc: $17 1	#posst#57<---644
+store: $21 1	#posst#58<---648
+alloc: $21 1	#posst#58<---648
+store: $18 1	#posst#59<---652
+alloc: $18 1	#posst#59<---652
+store: $8 1	#posst#60<---656
+alloc: $8 1	#posst#60<---656
+store: $22 1	#posst#61<---660
+alloc: $22 1	#posst#61<---660
+store: $9 1	#posst#62<---664
+alloc: $9 1	#posst#62<---664
+store: $13 1	#posst#63<---668
+alloc: $13 1	#posst#63<---668
+store: $16 1	#posst#64<---672
+alloc: $16 1	#posst#64<---672
+store: $11 1	#posst#65<---676
+alloc: $11 1	#posst#65<---676
+store: $15 1	#posst#66<---680
+alloc: $15 1	#posst#66<---680
+store: $10 1	#posst#67<---684
+alloc: $10 1	#posst#67<---684
+store: $12 1	#posst#68<---688
+alloc: $12 1	#posst#68<---688
+store: $23 1	#posst#69<---692
+alloc: $23 1	#posst#69<---692
+store: $19 1	#posst#70<---696
+alloc: $19 1	#posst#70<---696
+store: $20 1	#posst#71<---700
+alloc: $20 1	#posst#71<---700
+store: $14 1	#posst#72<---704
+alloc: $14 1	#posst#72<---704
+store: $17 1	#posst#73<---708
+alloc: $17 1	#posst#73<---708
+store: $21 1	#posst#74<---712
+alloc: $21 1	#posst#74<---712
+store: $18 1	#posst#75<---716
+alloc: $18 1	#posst#75<---716
+store: $8 1	#posst#76<---720
+alloc: $8 1	#posst#76<---720
+store: $22 1	#posst#77<---724
+alloc: $22 1	#posst#77<---724
+store: $9 1	#posst#78<---728
+alloc: $9 1	#posst#78<---728
+store: $13 1	#posst#79<---732
+alloc: $13 1	#posst#79<---732
+store: $16 1	#posst#80<---736
+alloc: $16 1	#posst#80<---736
+store: $11 1	#posst#81<---740
+alloc: $11 1	#posst#81<---740
+store: $15 1	#posst#82<---744
+alloc: $15 1	#posst#82<---744
+store: $10 1	#posst#83<---748
+alloc: $10 1	#posst#83<---748
+store: $12 1	#posst#84<---752
+alloc: $12 1	#posst#84<---752
+store: $23 1	#posst#85<---756
+alloc: $23 1	#posst#85<---756
+store: $19 1	#posst#86<---760
+alloc: $19 1	#posst#86<---760
+store: $20 1	#posst#87<---764
+alloc: $20 1	#posst#87<---764
+store: $14 1	#posst#88<---768
+alloc: $14 1	#posst#88<---768
+store: $17 1	#posst#89<---772
+alloc: $17 1	#posst#89<---772
+store: $21 1	#posst#90<---776
+alloc: $21 1	#posst#90<---776
+store: $18 1	#posst#91<---780
+alloc: $18 1	#posst#91<---780
+store: $8 1	#posst#92<---784
+alloc: $8 1	#posst#92<---784
+store: $22 1	#posst#93<---788
+alloc: $22 1	#posst#93<---788
+store: $9 1	#posst#94<---792
+alloc: $9 1	#posst#94<---792
+store: $13 1	#posst#95<---796
+alloc: $13 1	#posst#95<---796
+store: $16 1	#posst#96<---800
+alloc: $16 1	#posst#96<---800
+store: $11 1	#posst#97<---804
+alloc: $11 1	#posst#97<---804
+store: $15 1	#posst#98<---808
+alloc: $15 1	#posst#98<---808
+store: $10 1	#posst#99<---812
+alloc: $10 1	#posst#99<---812
+store: $12 1	#p<---816
+alloc: $12 1	#p<---816
+store: $23 1	#q<---820
+alloc: $23 1	#q<---820
+store: $19 1	#move<---824
+alloc: $19 1	#move<---824
+store: $20 1	#end<---828
+alloc: $20 1	#end<---828
+store: $14 1	#po1<---832
+alloc: $14 1	#po1<---832
+store: $17 1	#po2<---836
+alloc: $17 1	#po2<---836
+store: $21 1	#st2<---840
+alloc: $21 1	#st2<---840
+store: $18 1	#$t0<---844
+@@@found $t0 with addr=1
+store: $8 1	#$t0<---844
+opsync i level: 1
+store: $22 1	#$t0<---844
+@@@found $t1 with addr=1
+store: $9 1	#$t0<---844
+opsync j level: 1
+@@@found i with addr=-8
+@@@found i with addr=-8
+store: $11 1	#$t0<---844
+@@@found i with addr=-8
+@@@found $t2 with addr=1
+store: $21 1	#$t0<---844
+@@@found $t3 with addr=1
+@@@found i with addr=-8
+opsync i level: 1
+store: $9 1	#$t0<---844
+store: $11 1	#$t0<---844
+store: $12 1	#$t0<---844
+store: $14 1	#$t0<---844
+store: $17 1	#$t0<---844
+store: $19 1	#$t0<---844
+store: $20 1	#$t0<---844
+store: $23 1	#$t0<---844
+@@@found $t4 with addr=1
+store: $8 1	#$t0<---844
+store: $9 1	#$t0<---844
+store: $10 1	#$t4<---844
+@@@found i with addr=-8
+@@@found i with addr=-8
+@@@found $t5 with addr=1
+@@@found $t6 with addr=1
+@@@found i with addr=-8
+opsync i level: 1
+store: $8 1	#$t5<---848
+store: $9 1	#$t2<---852
+@@@found $t7 with addr=1
+opsync i level: 1
+@@@found i with addr=-8
+@@@found $t8 with addr=1
+@@@found $t9 with addr=1
+store: $9 1	#$t2<---852
+store: $11 1	#$t9<---852
+@@@found $t10 with addr=1
+opsync p level: 1
+@@@found $t11 with addr=1
+opsync q level: 1
+store: $8 1	#$t10<---856
+store: $9 1	#$t5<---860
+store: $11 1	#$t5<---860
+@@@found $t12 with addr=1
+@@@found $t13 with addr=1
+store: $9 1	#$t5<---860
+store: $10 1	#$t13<---860
+@@@found $t14 with addr=1
+opsync p level: 1
+@@@found $t15 with addr=1
+@@@found $t16 with addr=1
+opsync q level: 1
+store: $8 1	#$t14<---864
+store: $9 1	#$t4<---868
+store: $12 1	#$t4<---868
+@@@found $t17 with addr=1
+@@@found $t18 with addr=1
+store: $9 1	#$t4<---868
+store: $10 1	#$t18<---868
+@@@found $t19 with addr=1
+opsync p level: 1
+@@@found $t20 with addr=1
+@@@found $t21 with addr=1
+opsync q level: 1
+store: $8 1	#$t19<---872
+store: $9 1	#$t8<---876
+store: $12 1	#$t8<---876
+@@@found $t22 with addr=1
+@@@found $t23 with addr=1
+store: $9 1	#$t8<---876
+store: $10 1	#$t23<---876
+lcount = 220   sc = 232
+@@@found $t24 with addr=1
+lcount = 220   sc = 232
+@@@found $t25 with addr=1
+opsync move level: 1
+@@@found move with addr=-824
+@@@found $t26 with addr=1
+opsync end level: 1
+@@@found $t27 with addr=1
+opsync po1 level: 1
+@@@found po1 with addr=-832
+@@@found move with addr=-824
+@@@found $t28 with addr=1
+@@@found $t29 with addr=1
+opsync st2 level: 1
+@@@found st2 with addr=-840
+@@@found $t30 with addr=1
+opsync po2 level: 1
+@@@found po1 with addr=-832
+@@@found st2 with addr=-840
+@@@found po2 with addr=-836
+@@@found po1 with addr=-832
+opsync po1 level: 1
+@@@found $t31 with addr=1
+@@@found $t32 with addr=1
+@@@found j with addr=-12
+opsync j level: 1
+store: $9 2	#<--0
+store: $10 2	#<--0
+store: $12 2	#<--0
+store: $13 2	#<--0
+store: $15 2	#<--0
+store: $19 2	#<--0
+@@@found $t33 with addr=1
+store: $8 2	#<--0
+store: $9 2	#<--0
+store: $10 1	#$t33<---880
+@@@found $t34 with addr=1
+@@@found $t35 with addr=1
+opsync st2 level: 1
+@@@found st2 with addr=-840
+@@@found $t36 with addr=1
+opsync po2 level: 1
+@@@found po1 with addr=-832
+@@@found st2 with addr=-840
+@@@found po2 with addr=-836
+@@@found po1 with addr=-832
+opsync po1 level: 1
+@@@found $t37 with addr=1
+@@@found $t38 with addr=1
+@@@found j with addr=-12
+opsync j level: 1
+store: $8 1	#$t11<---884
+store: $9 1	#$t11<---884
+store: $10 1	#$t11<---884
+store: $14 1	#$t11<---884
+@@@found p with addr=-816
+@@@found $t39 with addr=1
+@@@found $t40 with addr=1
+store: $8 1	#$t11<---884
+@@@found $t41 with addr=1
+@@@found $t42 with addr=1
+@@@found i with addr=-8
+opsync i level: 1
+store: $9 1	#$t11<---884
+@@@found $t43 with addr=1
+store: $8 1	#$t11<---884
+store: $10 1	#$t43<---884
+@@@found $t44 with addr=1
+@@@found $t45 with addr=1
+store: $9 1	#$t9<---888
+store: $10 1	#$t45<---888
+@@@found $t46 with addr=1
+opsync p level: 1
+@@@found $t47 with addr=1
+opsync q level: 1
+store: $8 1	#$t46<---892
+store: $9 1	#$t14<---896
+store: $11 1	#$t14<---896
+@@@found $t48 with addr=1
+@@@found $t49 with addr=1
+store: $9 1	#$t14<---896
+store: $10 1	#$t49<---896
+@@@found $t50 with addr=1
+opsync p level: 1
+@@@found $t51 with addr=1
+@@@found $t52 with addr=1
+opsync q level: 1
+store: $8 1	#$t50<---900
+store: $9 1	#$t16<---904
+store: $12 1	#$t16<---904
+@@@found $t53 with addr=1
+@@@found $t54 with addr=1
+store: $9 1	#$t16<---904
+store: $10 1	#$t54<---904
+@@@found $t55 with addr=1
+opsync p level: 1
+@@@found $t56 with addr=1
+@@@found $t57 with addr=1
+opsync q level: 1
+store: $8 1	#$t55<---908
+store: $9 1	#$t17<---912
+store: $12 1	#$t17<---912
+@@@found $t58 with addr=1
+@@@found $t59 with addr=1
+store: $9 1	#$t17<---912
+store: $10 1	#$t59<---912
+lcount = 229   sc = 241
+@@@found $t60 with addr=1
+lcount = 229   sc = 241
+@@@found $t61 with addr=1
+opsync move level: 1
+@@@found move with addr=-824
+@@@found $t62 with addr=1
+opsync end level: 1
+@@@found $t63 with addr=1
+opsync po1 level: 1
+@@@found po1 with addr=-832
+@@@found move with addr=-824
+@@@found $t64 with addr=1
+@@@found $t65 with addr=1
+opsync st2 level: 1
+@@@found st2 with addr=-840
+@@@found $t66 with addr=1
+opsync po2 level: 1
+@@@found po1 with addr=-832
+@@@found st2 with addr=-840
+@@@found po2 with addr=-836
+@@@found po1 with addr=-832
+opsync po1 level: 1
+@@@found $t67 with addr=1
+@@@found $t68 with addr=1
+@@@found j with addr=-12
+opsync j level: 1
+store: $9 2	#<--0
+store: $10 2	#<--0
+store: $12 2	#<--0
+store: $13 2	#<--0
+store: $15 2	#<--0
+store: $19 2	#<--0
+@@@found $t69 with addr=1
+store: $8 2	#<--0
+store: $10 1	#$t69<---916
+@@@found $t70 with addr=1
+@@@found $t71 with addr=1
+opsync st2 level: 1
+@@@found st2 with addr=-840
+@@@found $t72 with addr=1
+opsync po2 level: 1
+@@@found po1 with addr=-832
+@@@found st2 with addr=-840
+@@@found po2 with addr=-836
+@@@found po1 with addr=-832
+opsync po1 level: 1
+@@@found $t73 with addr=1
+@@@found $t74 with addr=1
+@@@found j with addr=-12
+opsync j level: 1
+store: $8 1	#$t20<---920
+store: $10 1	#$t20<---920
+@@@found p with addr=-816
+@@@found $t75 with addr=1
+@@@found $t76 with addr=1
+store: $8 1	#$t20<---920
+@@@found $t77 with addr=1
+@@@found $t78 with addr=1
+@@@found i with addr=-8
+opsync i level: 1
+store: $8 1	#$t77<---920
+store: $9 1	#$t21<---924
+@@@found $t79 with addr=1
+@@@found $t80 with addr=1
+@@@found $t81 with addr=1
+opsync i level: 1
+@@@found i with addr=-8
+@@@found $t82 with addr=1
+@@@found $t83 with addr=1
+@@@found $t84 with addr=1
+@@@found i with addr=-8
+opsync i level: 1
+store: $12 1	#$t21<---924
+@@@found $t85 with addr=1
+store: $8 1	#$t21<---924
+store: $10 1	#$t85<---924
+@@@found $t86 with addr=1
+@@@found $t87 with addr=1
+@@@found $t88 with addr=1
+@@@found i with addr=-8
+opsync i level: 1
+store: $8 1	#$t87<---928
+store: $11 1	#$t88<---932
+L-0
+%para	char	x	
+para: x 1
+alloc: $8 1	#z2<---4
+@@@found $t0 with addr=1
+@@@found z2 with addr=-4
+opsync z2 level: 1
+@@@found z2 with addr=-4
+@@@found $t1 with addr=1
+@@@found x with addr=0
+opsync x level: 1
+@@@found x with addr=0
+L-0
+%para	int	n	
+para: n 1
+alloc: $8 1	#result<---4
+@@@found $t0 with addr=1
+@@@found $t1 with addr=1
+store: $8 1	#i<---8
+store: $10 1	#i<---8
+store: $11 1	#$t1<---8
+@@@found $t2 with addr=1
+store: $8 1	#$t2<---12
+@@@found $t3 with addr=1
+@@@found $t4 with addr=1
+store: $9 1	#stpos#0<---16
+store: $10 1	#$t4<---16
+@@@found $t5 with addr=1
+store: $8 1	#$t5<---20
+lcount = 6   sc = 18
+@@@found $t6 with addr=1
+@@@found $t7 with addr=1
+lcount = 6   sc = 18
+store: $8 1	#$t8<---24
+lcount = 7   sc = 19
+@@@found $t9 with addr=1
+@@@found $t10 with addr=1
+lcount = 7   sc = 19
+@@@found $t11 with addr=1
+@@@found $t12 with addr=1
+opsync result level: 1
+@@@found result with addr=-4
+L-0
+alloc: $8 1	#a#0<--0
+alloc: $9 1	#a#1<---4
+alloc: $10 1	#a#2<---8
+alloc: $11 1	#a#3<---12
+alloc: $12 1	#a#4<---16
+alloc: $13 1	#a#5<---20
+alloc: $14 1	#a#6<---24
+alloc: $15 1	#a#7<---28
+alloc: $16 1	#a#8<---32
+alloc: $17 1	#a#9<---36
+alloc: $18 1	#a#10<---40
+alloc: $19 1	#a#11<---44
+alloc: $20 1	#a#12<---48
+alloc: $21 1	#a#13<---52
+alloc: $22 1	#a#14<---56
+alloc: $23 1	#b#0<---60
+store: $14 1	#stpos#12<---64
+alloc: $14 1	#b#1<---64
+store: $17 1	#stpos#13<---68
+alloc: $17 1	#b#2<---68
+store: $22 1	#stpos#14<---72
+alloc: $22 1	#b#3<---72
+store: $19 1	#stpos#15<---76
+alloc: $19 1	#b#4<---76
+store: $20 1	#stpos#16<---80
+alloc: $20 1	#b#5<---80
+store: $8 1	#stpos#17<---84
+alloc: $8 1	#b#6<---84
+store: $13 1	#stpos#18<---88
+alloc: $13 1	#b#7<---88
+store: $9 1	#stpos#19<---92
+alloc: $9 1	#b#8<---92
+store: $11 1	#stpos#20<---96
+alloc: $11 1	#b#9<---96
+store: $23 1	#stpos#21<---100
+alloc: $23 1	#b#10<---100
+store: $16 1	#stpos#22<---104
+alloc: $16 1	#b#11<---104
+store: $12 1	#stpos#23<---108
+alloc: $12 1	#b#12<---108
+store: $15 1	#stpos#24<---112
+alloc: $15 1	#b#13<---112
+store: $10 1	#stpos#25<---116
+alloc: $10 1	#b#14<---116
+store: $21 1	#stpos#26<---120
+@@@found $t0 with addr=1
+store: $18 1	#stpos#26<---120
+opsync a#0 level: 1
+store: $14 1	#stpos#26<---120
+@@@found $t1 with addr=1
+store: $17 1	#stpos#26<---120
+opsync b#1 level: 1
+store: $22 1	#stpos#26<---120
+@@@found $t2 with addr=1
+store: $19 1	#stpos#26<---120
+opsync a#3 level: 1
+store: $20 1	#stpos#26<---120
+@@@found $t3 with addr=1
+store: $8 1	#stpos#26<---120
+opsync b#4 level: 1
+store: $13 1	#stpos#26<---120
+@@@found $t4 with addr=1
+store: $11 1	#stpos#26<---120
+opsync a#6 level: 1
+store: $23 1	#stpos#26<---120
+@@@found $t5 with addr=1
+store: $16 1	#stpos#26<---120
+@@@found a#0 with addr=0
+@@@found $t6 with addr=1
+@@@found $t7 with addr=1
+@@@found $t8 with addr=1
+@@@found $t9 with addr=1
+@@@found $t11 with addr=1
+@@@found $t10 with addr=1
+@@@found $t12 with addr=1
+store: $12 1	#stpos#26<---120
+@@@found $t14 with addr=1
+store: $10 1	#stpos#26<---120
+@@@found $t13 with addr=1
+@@@found $t15 with addr=1
+@@@found $t16 with addr=1
+@@@found $t16 with addr=1
+L-0
+%para	char	x	
+para: x 1
+@@@found $t0 with addr=1
+@@@found $t1 with addr=1
+store: $9 1	#a#1<---4
+store: $10 1	#$t1<---4
+store: $8 1	#a#2<---8
+@@@found $t2 with addr=1
+@@@found $t3 with addr=1
+@@@found x with addr=0
+opsync x level: 1
+@@@found x with addr=0
+store: $8 1	#$t2<---8
+store: $9 1	#a#3<---12
+store: $10 1	#$t3<---12
+lcount = 4   sc = 16
+lcount = 4   sc = 16
+L-0
+alloc: $8 1	#coz<--0
+alloc: $9 1	#a<---4
+alloc: $10 1	#b<---8
+alloc: $11 1	#c<---12
+alloc: $12 1	#d<---16
+alloc: $13 1	#key<---20
+alloc: $14 1	#i<---24
+alloc: $15 1	#sz2#0<---28
+alloc: $16 1	#sz2#1<---32
+alloc: $17 1	#sz2#2<---36
+alloc: $18 1	#sz2#3<---40
+alloc: $19 1	#sz2#4<---44
+alloc: $20 1	#cho<---48
+alloc: $21 1	#sz#0<---52
+alloc: $22 1	#sz#1<---56
+alloc: $23 1	#sz#2<---60
+store: $15 1	#b#1<---64
+alloc: $15 1	#sz#3<---64
+store: $18 1	#b#2<---68
+alloc: $18 1	#sz#4<---68
+store: $9 1	#b#3<---72
+alloc: $9 1	#e<---72
+store: $22 1	#b#4<---76
+@@@found $t0 with addr=1
+store: $17 1	#b#4<---76
+opsync chc level: 0
+store: $20 1	#b#4<---76
+@@@found $t1 with addr=1
+store: $14 1	#b#4<---76
+opsync chd level: 0
+store: $8 1	#b#4<---76
+@@@found $t2 with addr=1
+@@@found b with addr=-8
+opsync b level: 1
+store: $16 1	#b#4<---76
+@@@found $t3 with addr=1
+store: $13 1	#b#4<---76
+opsync i level: 1
+store: $12 1	#b#4<---76
+@@@found $t4 with addr=1
+store: $10 1	#b#4<---76
+@@@found $t5 with addr=1
+@@@found c with addr=-12
+opsync c level: 1
+store: $23 1	#b#4<---76
+@@@found $t6 with addr=1
+store: $11 1	#b#4<---76
+opsync key level: 1
+store: $9 1	#b#4<---76
+opsync cho level: 1
+store: $22 1	#$t0<---76
+@@@found cho with addr=-48
+@@@found $t7 with addr=1
+store: $14 1	#b#5<---80
+@@@found $t8 with addr=1
+store: $9 1	#b#5<---80
+store: $11 1	#b#5<---80
+store: $13 1	#b#5<---80
+store: $14 1	#$t8<---80
+store: $17 1	#b#6<---84
+lcount = 21   sc = 33
+@@@found $t9 with addr=1
+@@@found $t10 with addr=1
+lcount = 21   sc = 33
+@@@found $t11 with addr=1
+@@@found $t12 with addr=1
+store: $9 2	#<--0
+store: $10 1	#$t12<---84
+lcount = 22   sc = 34
+lcount = 22   sc = 34
+@@@found $t13 with addr=1
+opsync d level: 1
+@@@found d with addr=-16
+store: $8 1	#$t13<---88
+store: $9 1	#b#8<---92
+@@@found $t14 with addr=1
+@@@found $t15 with addr=1
+store: $9 1	#b#8<---92
+store: $10 1	#$t15<---92
+@@@found $t16 with addr=1
+@@@found i with addr=-24
+@@@found $t17 with addr=1
+@@@found $t18 with addr=1
+@@@found i with addr=-24
+opsync i level: 1
+store: $10 1	#b#9<---96
+@@@found $t19 with addr=1
+@@@found $t20 with addr=1
+store: $9 1	#b#9<---96
+store: $10 1	#$t20<---96
+@@@found $t21 with addr=1
+@@@found i with addr=-24
+@@@found $t22 with addr=1
+@@@found $t23 with addr=1
+@@@found i with addr=-24
+opsync i level: 1
+store: $8 1	#$t21<---100
+opsync key level: 1
+opsync a level: 1
+@@@found key with addr=-20
+@@@found $t24 with addr=1
+@@@found $t25 with addr=1
+store: $8 1	#b#11<---104
+store: $9 1	#b#11<---104
+store: $11 1	#$t25<---104
+@@@found $t26 with addr=1
+@@@found a with addr=-4
+opsync a level: 1
+@@@found a with addr=-4
+store: $8 1	#b#12<---108
+store: $9 1	#b#12<---108
+@@@found $t27 with addr=1
+@@@found $t28 with addr=1
+store: $9 1	#b#12<---108
+store: $10 1	#$t28<---108
+@@@found $t29 with addr=1
+@@@found b with addr=-8
+opsync b level: 1
+@@@found $t30 with addr=1
+@@@found $t31 with addr=1
+@@@found b with addr=-8
+@@@found $t32 with addr=1
+opsync sz2#0 level: 1
+@@@found $t33 with addr=1
+@@@found $t34 with addr=1
+@@@found $t35 with addr=1
+@@@found $t36 with addr=1
+opsync sz#0 level: 1
+@@@found b with addr=-8
+@@@found $t37 with addr=1
+@@@found sz#0 with addr=-52
+@@@found $t38 with addr=1
+@@@found $t39 with addr=1
+@@@found sz2#0 with addr=-28
+@@@found $t40 with addr=1
+store: $8 1	#b#13<---112
+store: $9 1	#b#13<---112
+@@@found $t41 with addr=1
+@@@found $t42 with addr=1
+store: $9 1	#b#13<---112
+store: $10 1	#$t42<---112
+@@@found $t43 with addr=1
+opsync c level: 1
+@@@found $t44 with addr=1
+@@@found $t45 with addr=1
+@@@found c with addr=-12
+@@@found $t46 with addr=1
+opsync sz2#1 level: 1
+@@@found $t47 with addr=1
+@@@found $t48 with addr=1
+@@@found $t49 with addr=1
+@@@found $t50 with addr=1
+opsync sz#1 level: 1
+@@@found c with addr=-12
+@@@found $t51 with addr=1
+@@@found $t52 with addr=1
+@@@found $t53 with addr=1
+@@@found $t54 with addr=1
+store: $8 1	#b#14<---116
+store: $9 1	#b#14<---116
+@@@found $t55 with addr=1
+@@@found $t56 with addr=1
+store: $9 1	#b#14<---116
+store: $10 1	#$t56<---116
+@@@found $t57 with addr=1
+opsync d level: 1
+@@@found $t58 with addr=1
+@@@found $t59 with addr=1
+@@@found d with addr=-16
+@@@found $t60 with addr=1
+opsync sz2#2 level: 1
+@@@found $t61 with addr=1
+@@@found $t62 with addr=1
+@@@found $t63 with addr=1
+@@@found $t64 with addr=1
+opsync sz#2 level: 1
+@@@found d with addr=-16
+@@@found $t65 with addr=1
+@@@found $t66 with addr=1
+@@@found $t67 with addr=1
+@@@found $t68 with addr=1
+store: $8 1	#stpos#26<---120
+@@@found $t69 with addr=1
+@@@found $t70 with addr=1
+store: $9 1	#stpos#26<---120
+store: $10 1	#$t70<---120
+@@@found $t71 with addr=1
+@@@found $t72 with addr=1
+@@@found $t73 with addr=1
+@@@found a with addr=-4
+opsync a level: 1
+@@@found $t74 with addr=1
+@@@found $t75 with addr=1
+@@@found a with addr=-4
+@@@found $t76 with addr=1
+@@@found $t77 with addr=1
+@@@found $t78 with addr=1
+opsync sz2#3 level: 1
+@@@found $t79 with addr=1
+@@@found $t80 with addr=1
+@@@found $t81 with addr=1
+@@@found $t82 with addr=1
+opsync sz#3 level: 1
+@@@found a with addr=-4
+@@@found $t83 with addr=1
+store: $10 1	#$t72<---124
+@@@found $t84 with addr=1
+@@@found $t85 with addr=1
+store: $8 1	#$t71<---128
+@@@found $t86 with addr=1
+store: $9 1	#stpos#29<---132
+store: $11 1	#stpos#29<---132
+@@@found $t87 with addr=1
+@@@found $t88 with addr=1
+store: $9 1	#stpos#29<---132
+store: $10 1	#$t88<---132
+@@@found $t90 with addr=1
+@@@found $t89 with addr=1
+@@@found $t91 with addr=1
+@@@found $t92 with addr=1
+@@@found a with addr=-4
+opsync a level: 1
+@@@found $t93 with addr=1
+@@@found $t94 with addr=1
+@@@found $t95 with addr=1
+@@@found $t96 with addr=1
+opsync sz#4 level: 1
+@@@found a with addr=-4
+@@@found $t97 with addr=1
+@@@found $t98 with addr=1
+@@@found $t99 with addr=1
+@@@found $t100 with addr=1
+store: $8 1	#stpos#30<---136
+store: $11 1	#stpos#30<---136
+store: $8 1	#stpos#30<---136
+@@@found $t101 with addr=1
+@@@found $t102 with addr=1
+store: $9 1	#stpos#30<---136
+store: $10 1	#$t102<---136
+store: $8 1	#stpos#31<---140
+lcount = 35   sc = 47
+@@@found $t103 with addr=1
+@@@found $t104 with addr=1
+@@@found $t105 with addr=1
+lcount = 35   sc = 47
+@@@found $t107 with addr=1
+@@@found $t108 with addr=1
+@@@found $t109 with addr=1
+@@@found $t106 with addr=1
+@@@found $t110 with addr=1
+@@@found $t111 with addr=1
+opsync sz2#4 level: 1
+store: $8 1	#$t106<---140
+lcount = 36   sc = 48
+lcount = 36   sc = 48
+lcount = 36   sc = 48
+@@@found $t112 with addr=1
+lcount = 36   sc = 48
+@@@found $t113 with addr=1
+@@@found $t114 with addr=1
+@@@found $t115 with addr=1
+store: $8 1	#$t113<---144
+@@@found $t116 with addr=1
+@@@found $t117 with addr=1
+store: $10 1	#$t117<---148
+opsync key level: 1
+@@@found key with addr=-20
+@@@found $t118 with addr=1
+@@@found $t119 with addr=1
+@@@found $t120 with addr=1
+@@@found $t121 with addr=1
+store: $8 1	#stpos#34<---152
+store: $10 1	#$t119<---152
+store: $12 1	#$t121<---156
+@@@found $t122 with addr=1
+@@@found $t123 with addr=1
+store: $9 1	#stpos#36<---160
+store: $10 1	#$t123<---160
+store: $8 1	#stpos#37<---164
+@@@found $t124 with addr=1
+@@@found $t125 with addr=1
+store: $10 1	#$t125<---164
+opsync e level: 1
+@@@found e with addr=-72
+@@@found $t126 with addr=1
+@@@found $t127 with addr=1
+store: $8 1	#stpos#38<---168
+store: $10 1	#$t127<---168
+@@@found $t128 with addr=1
+store: $8 1	#$t128<---172
+@@@found $t129 with addr=1
+@@@found $t130 with addr=1
+store: $10 1	#$t130<---176
+@@@found $t132 with addr=1
+@@@found $t131 with addr=1
+@@@found $t133 with addr=1
+@@@found $t134 with addr=1
+store: $8 1	#$t131<---180
+lcount = 46   sc = 58
+lcount = 46   sc = 58

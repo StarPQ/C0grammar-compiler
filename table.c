@@ -11,7 +11,8 @@ void enterTable(char *name, int type, int detail, int value, int paranum){
         err(FUNCDEFINFUNC_ERR);
         return;
     }
-    if(find(name) != 0){
+    if(deffind(name) != 0){
+        fprintf(erroutput, "--%s--", name);
         err(REDEFINE_ERR);
         return;
     }
@@ -44,6 +45,11 @@ void enterTable(char *name, int type, int detail, int value, int paranum){
         symlist[Top].isconst = 0;
         symlist[Top].isreturn = 1;
     }
+    else if(detail == 4){
+        symlist[Top].isarray = 0;
+        symlist[Top].isconst = 0;
+        symlist[Top].isreturn = 0;
+    }
     symlist[Top].level = Level;
     //if(symlist[Top].type == FUNCTION) symlist[Top].level = 0;
     if(symlist[Top].type == FUNCTION){
@@ -59,11 +65,27 @@ void pop(){
     Level--;
 }
 
+Link deffind(char *name){
+    if(debug) printf("//Finding %s\n", name);
+    Link tmp;
+    int i;
+    //for(i = 0; i <= Top; i++ ){
+    for(i = Top; i >= 0; i-- ){
+        if(strcmp(name, symlist[i].name) == 0 && symlist[i].level == Level){
+            if(debug) printf("//Found %s\n", name);
+            return &symlist[i];
+        }
+    }
+    //err(NOTDEFINED_ERR);
+    return 0;
+}
+
 Link find(char *name){
     if(debug) printf("//Finding %s\n", name);
     Link tmp;
     int i;
-    for(i = 0; i <= Top; i++ ){
+    //for(i = 0; i <= Top; i++ ){
+    for(i = Top; i >= 0; i-- ){
         if(strcmp(name, symlist[i].name) == 0 && (symlist[i].level == 0 || symlist[i].level == Level)){
             if(debug) printf("//Found %s\n", name);
             return &symlist[i];

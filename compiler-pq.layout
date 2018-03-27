@@ -2,44 +2,94 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="err.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="intermed.c" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="147" topLine="0" />
+			<Cursor1 position="2846" topLine="0" />
 		</Cursor>
+		<Folding>
+			<Collapse line="12" />
+			<Collapse line="15" />
+			<Collapse line="110" />
+			<Collapse line="120" />
+			<Collapse line="131" />
+			<Collapse line="137" />
+			<Collapse line="149" />
+		</Folding>
+	</File>
+	<File name="lexing.h" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="339" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="lexing.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4813" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="optimization.c" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="356" topLine="141" />
+		</Cursor>
+	</File>
+	<File name="semantic.c" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="18864" topLine="3" />
+		</Cursor>
+		<Folding>
+			<Collapse line="13" />
+			<Collapse line="35" />
+			<Collapse line="69" />
+			<Collapse line="102" />
+			<Collapse line="124" />
+			<Collapse line="129" />
+			<Collapse line="158" />
+			<Collapse line="172" />
+			<Collapse line="227" />
+			<Collapse line="241" />
+			<Collapse line="278" />
+			<Collapse line="306" />
+			<Collapse line="325" />
+			<Collapse line="360" />
+			<Collapse line="406" />
+			<Collapse line="484" />
+			<Collapse line="519" />
+			<Collapse line="586" />
+			<Collapse line="646" />
+			<Collapse line="658" />
+			<Collapse line="679" />
+			<Collapse line="701" />
+			<Collapse line="745" />
+			<Collapse line="795" />
+			<Collapse line="840" />
+			<Collapse line="888" />
+			<Collapse line="952" />
+			<Collapse line="1033" />
+			<Collapse line="1048" />
+		</Folding>
 	</File>
 	<File name="err.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="2953" topLine="17" />
 		</Cursor>
 	</File>
-	<File name="asm.c" open="1" top="1" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="intermed.h" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="18965" topLine="515" />
+			<Cursor1 position="468" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="lexing.h" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="asm.h" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1594" topLine="0" />
+			<Cursor1 position="537" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="main.c" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="_err" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="332" topLine="5" />
+			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="_err" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="err.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="5850" topLine="221" />
-		</Cursor>
-	</File>
-	<File name="lexing.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2366" topLine="82" />
-		</Cursor>
-	</File>
-	<File name="global.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="55" topLine="0" />
+			<Cursor1 position="5324" topLine="148" />
 		</Cursor>
 	</File>
 	<File name="semantic.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -47,41 +97,74 @@
 			<Cursor1 position="307" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="asm.h" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="442" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="intermed.c" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2819" topLine="84" />
-		</Cursor>
-	</File>
 	<File name="table.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1308" topLine="2" />
-		</Cursor>
-	</File>
-	<File name="semantic.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="22860" topLine="733" />
+			<Cursor1 position="1297" topLine="0" />
 		</Cursor>
 		<Folding>
-			<Collapse line="12" />
-			<Collapse line="33" />
-			<Collapse line="63" />
-			<Collapse line="96" />
-			<Collapse line="118" />
+			<Collapse line="8" />
+			<Collapse line="60" />
+			<Collapse line="67" />
+			<Collapse line="82" />
 		</Folding>
-	</File>
-	<File name="intermed.h" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="466" topLine="0" />
-		</Cursor>
 	</File>
 	<File name="table.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="347" topLine="0" />
+			<Cursor1 position="362" topLine="0" />
 		</Cursor>
+	</File>
+	<File name="main.c" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="682" topLine="7" />
+		</Cursor>
+	</File>
+	<File name="global.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="55" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="asm.c" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8084" topLine="18" />
+		</Cursor>
+		<Folding>
+			<Collapse line="20" />
+			<Collapse line="27" />
+			<Collapse line="36" />
+			<Collapse line="58" />
+			<Collapse line="70" />
+			<Collapse line="89" />
+			<Collapse line="123" />
+			<Collapse line="135" />
+			<Collapse line="161" />
+			<Collapse line="174" />
+			<Collapse line="208" />
+			<Collapse line="231" />
+			<Collapse line="247" />
+			<Collapse line="269" />
+			<Collapse line="292" />
+			<Collapse line="299" />
+			<Collapse line="314" />
+			<Collapse line="324" />
+			<Collapse line="334" />
+			<Collapse line="369" />
+			<Collapse line="374" />
+			<Collapse line="386" />
+			<Collapse line="398" />
+			<Collapse line="411" />
+			<Collapse line="425" />
+			<Collapse line="439" />
+			<Collapse line="446" />
+			<Collapse line="453" />
+			<Collapse line="460" />
+			<Collapse line="467" />
+			<Collapse line="474" />
+			<Collapse line="481" />
+			<Collapse line="531" />
+			<Collapse line="574" />
+			<Collapse line="597" />
+			<Collapse line="612" />
+			<Collapse line="619" />
+		</Folding>
 	</File>
 </CodeBlocks_layout_file>

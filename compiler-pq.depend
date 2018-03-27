@@ -120,7 +120,7 @@
 	"table.h"
 	"lexing.h"
 
-1512832145 source:c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\asm.c
+1514993353 source:c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\asm.c
 	<stdio.h>
 	<string.h>
 	<stdlib.h>
@@ -141,7 +141,7 @@
 
 1511917507 source:c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\optimization.c
 
-1512817808 source:c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\lexing.c
+1514033912 source:c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\lexing.c
 	<stdio.h>
 	<string.h>
 	<ctype.h>
@@ -151,7 +151,7 @@
 
 1512320703 c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\global.h
 
-1512829319 source:c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\main.c
+1514991947 source:c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\main.c
 	<stdio.h>
 	<string.h>
 	"lexing.h"
@@ -163,7 +163,7 @@
 
 1512393014 c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\semantic.h
 
-1512829276 source:c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\semantic.c
+1514966602 source:c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\semantic.c
 	<stdio.h>
 	<string.h>
 	<stdlib.h>
@@ -176,9 +176,9 @@
 
 1512448393 c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\intermed.h
 
-1512319723 c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\table.h
+1514124182 c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\table.h
 
-1512557205 source:c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\table.c
+1514124129 source:c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\table.c
 	<stdio.h>
 	<string.h>
 	<stdlib.h>
@@ -199,4 +199,88 @@
 1512795660 c:\users\41404\onedrive\大三上\编译\课程设计\compiler-pq\asm.h
 
 1512721833 c:\users\41404\onedrive\大三上\编译\课程设计\15061036_彭骞_词法分析和设计\compiler-pq\asm.h
+
+1515851358 source:c:\users\41404\desktop\15061036_彭骞_测试程序二\compiler-pq\err.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"lexing.h"
+	"err.h"
+
+1512322006 c:\users\41404\desktop\15061036_彭骞_测试程序二\compiler-pq\lexing.h
+
+1512475979 c:\users\41404\desktop\15061036_彭骞_测试程序二\compiler-pq\err.h
+
+1515767296 source:c:\users\41404\desktop\15061036_彭骞_测试程序二\compiler-pq\intermed.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"lexing.h"
+	"err.h"
+	"intermed.h"
+	"table.h"
+	"global.h"
+
+1515825469 c:\users\41404\desktop\15061036_彭骞_测试程序二\compiler-pq\intermed.h
+
+1514124182 c:\users\41404\desktop\15061036_彭骞_测试程序二\compiler-pq\table.h
+
+1512320703 c:\users\41404\desktop\15061036_彭骞_测试程序二\compiler-pq\global.h
+
+1515844506 source:c:\users\41404\desktop\15061036_彭骞_测试程序二\compiler-pq\lexing.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"lexing.h"
+	"err.h"
+	"global.h"
+
+1515850560 source:c:\users\41404\desktop\15061036_彭骞_测试程序二\compiler-pq\main.c
+	<stdio.h>
+	<string.h>
+	"lexing.h"
+	"err.h"
+	"semantic.h"
+	"global.h"
+	"intermed.h"
+	"asm.h"
+
+1512393014 c:\users\41404\desktop\15061036_彭骞_测试程序二\compiler-pq\semantic.h
+
+1515825642 c:\users\41404\desktop\15061036_彭骞_测试程序二\compiler-pq\asm.h
+
+1515849643 source:c:\users\41404\desktop\15061036_彭骞_测试程序二\compiler-pq\optimization.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"intermed.h"
+	"asm.h"
+	"err.h"
+
+1515852832 source:c:\users\41404\desktop\15061036_彭骞_测试程序二\compiler-pq\semantic.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"intermed.h"
+	"err.h"
+	"semantic.h"
+	"global.h"
+	"table.h"
+	"lexing.h"
+
+1515852940 source:c:\users\41404\desktop\15061036_彭骞_测试程序二\compiler-pq\table.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"err.h"
+	"global.h"
+	"table.h"
+
+1515825003 source:c:\users\41404\desktop\15061036_彭骞_测试程序二\compiler-pq\asm.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"intermed.h"
+	"asm.h"
+	"err.h"
 

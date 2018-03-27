@@ -1,0 +1,686 @@
+const int	cona	=	10
+const char	conb	=	97
+const char	conc	=	54
+%var	int	_cha	
+%var	int	chb	6
+%var	char	chc	
+%var	char	chd	
+%goto	LABEL_MAIN		
+LABEL_f	:		
+int	f	()	
+%para	int	x	
+%para	int	y	
+const int	z	=	1
+%endvardef			
+%li	$t0	1	
+$t1	x	>	$t0
+BZ	$t1	LABEL_0	
+$t2	x	+	z
+%ret	$t2		
+%goto	LABEL_1		
+LABEL_0	:		
+LABEL_1	:		
+%li	$t3	1	
+$t4	x	+	$t3
+x		=	$t4
+%call	f		
+%push	x		
+%push	y		
+%jal	LABEL_f		
+$t5	x	+	y
+%ret	$t5		
+%end			
+LABEL_compare	:		
+int	compare	()	
+%para	int	a	
+%para	int	b	
+%endvardef			
+$t0	a	>	b
+BZ	$t0	LABEL_2	
+%li	$t1	1	
+%ret	$t1		
+%goto	LABEL_3		
+LABEL_2	:		
+LABEL_3	:		
+$t2	a	<=	b
+BZ	$t2	LABEL_4	
+%li	$t3	1	
+$t4		-	$t3
+%ret	$t4		
+%goto	LABEL_5		
+LABEL_4	:		
+LABEL_5	:		
+%end			
+LABEL_line	:		
+void	line	()	
+%para	int	n	
+%para	int	m	
+%var	int	i	
+%var	int	j	
+%var	int	stpos	100
+%var	int	posst	100
+%var	int	p	
+%var	int	q	
+%var	int	move	
+%var	int	end	
+%var	int	po1	
+%var	int	po2	
+%var	int	st2	
+%endvardef			
+%li	$t0	1	
+i		=	$t0
+%li	$t1	1	
+j		=	$t1
+stpos	i	=	i
+posst	i	=	i
+%li	$t2	1	
+$t3	i	+	$t2
+i		=	$t3
+LABEL_6	:		
+$t4	i	<=	n
+BZ	$t4	LABEL_7	
+stpos	i	=	i
+posst	i	=	i
+%li	$t5	1	
+$t6	i	+	$t5
+i		=	$t6
+%goto	LABEL_6		
+LABEL_7	:		
+%li	$t7	1	
+i		=	$t7
+%li	$t8	1	
+$t9	i	==	$t8
+BZ	$t9	LABEL_8	
+%li	$t10	3	
+p		=	$t10
+%li	$t11	2	
+q		=	$t11
+%goto	LABEL_9		
+LABEL_8	:		
+LABEL_9	:		
+%li	$t12	2	
+$t13	i	==	$t12
+BZ	$t13	LABEL_10	
+%li	$t14	8	
+p		=	$t14
+%li	$t15	3	
+$t16		-	$t15
+q		=	$t16
+%goto	LABEL_11		
+LABEL_10	:		
+LABEL_11	:		
+%li	$t17	3	
+$t18	i	==	$t17
+BZ	$t18	LABEL_12	
+%li	$t19	3	
+p		=	$t19
+%li	$t20	2	
+$t21		-	$t20
+q		=	$t21
+%goto	LABEL_13		
+LABEL_12	:		
+LABEL_13	:		
+%li	$t22	0	
+$t23	q	!=	$t22
+BZ	$t23	LABEL_14	
+%call	compare		
+%push	q		
+%li	$t24	0	
+%push	$t24		
+%jal	LABEL_compare		
+$t25	=	RET	
+move		=	$t25
+$t26	move	*	q
+end		=	$t26
+$t27	=	stpos	p
+po1		=	$t27
+$t28	po1	+	move
+$t29	=	posst	$t28
+st2		=	$t29
+$t30	=	stpos	st2
+po2		=	$t30
+posst	po1	=	st2
+stpos	st2	=	po1
+po1		=	po2
+%li	$t31	1	
+$t32	j	+	$t31
+j		=	$t32
+LABEL_16	:		
+$t33	j	<=	end
+BZ	$t33	LABEL_17	
+$t34	po1	+	move
+$t35	=	posst	$t34
+st2		=	$t35
+$t36	=	stpos	st2
+po2		=	$t36
+posst	po1	=	st2
+stpos	st2	=	po1
+po1		=	po2
+%li	$t37	1	
+$t38	j	+	$t37
+j		=	$t38
+%goto	LABEL_16		
+LABEL_17	:		
+posst	po2	=	p
+$t39	=	stpos	p
+$t40	$t39	+	q
+stpos	p	=	$t40
+%goto	LABEL_15		
+LABEL_14	:		
+LABEL_15	:		
+%li	$t41	1	
+$t42	i	+	$t41
+i		=	$t42
+LABEL_18	:		
+$t43	i	<=	m
+BZ	$t43	LABEL_19	
+%li	$t44	1	
+$t45	i	==	$t44
+BZ	$t45	LABEL_20	
+%li	$t46	3	
+p		=	$t46
+%li	$t47	2	
+q		=	$t47
+%goto	LABEL_21		
+LABEL_20	:		
+LABEL_21	:		
+%li	$t48	2	
+$t49	i	==	$t48
+BZ	$t49	LABEL_22	
+%li	$t50	8	
+p		=	$t50
+%li	$t51	3	
+$t52		-	$t51
+q		=	$t52
+%goto	LABEL_23		
+LABEL_22	:		
+LABEL_23	:		
+%li	$t53	3	
+$t54	i	==	$t53
+BZ	$t54	LABEL_24	
+%li	$t55	3	
+p		=	$t55
+%li	$t56	2	
+$t57		-	$t56
+q		=	$t57
+%goto	LABEL_25		
+LABEL_24	:		
+LABEL_25	:		
+%li	$t58	0	
+$t59	q	!=	$t58
+BZ	$t59	LABEL_26	
+%call	compare		
+%push	q		
+%li	$t60	0	
+%push	$t60		
+%jal	LABEL_compare		
+$t61	=	RET	
+move		=	$t61
+$t62	move	*	q
+end		=	$t62
+$t63	=	stpos	p
+po1		=	$t63
+$t64	po1	+	move
+$t65	=	posst	$t64
+st2		=	$t65
+$t66	=	stpos	st2
+po2		=	$t66
+posst	po1	=	st2
+stpos	st2	=	po1
+po1		=	po2
+%li	$t67	1	
+$t68	j	+	$t67
+j		=	$t68
+LABEL_28	:		
+$t69	j	<=	end
+BZ	$t69	LABEL_29	
+$t70	po1	+	move
+$t71	=	posst	$t70
+st2		=	$t71
+$t72	=	stpos	st2
+po2		=	$t72
+posst	po1	=	st2
+stpos	st2	=	po1
+po1		=	po2
+%li	$t73	1	
+$t74	j	+	$t73
+j		=	$t74
+%goto	LABEL_28		
+LABEL_29	:		
+posst	po2	=	p
+$t75	=	stpos	p
+$t76	$t75	+	q
+stpos	p	=	$t76
+%goto	LABEL_27		
+LABEL_26	:		
+LABEL_27	:		
+%li	$t77	1	
+$t78	i	+	$t77
+i		=	$t78
+%goto	LABEL_18		
+LABEL_19	:		
+%li	$t79	1	
+$t80	=	posst	$t79
+%printf	number	$t80	
+%li	$t81	2	
+i		=	$t81
+$t82	=	posst	i
+%printf	number	$t82	
+%li	$t83	1	
+$t84	i	+	$t83
+i		=	$t84
+LABEL_30	:		
+$t85	i	<=	n
+BZ	$t85	LABEL_31	
+$t86	=	posst	i
+%printf	number	$t86	
+%li	$t87	1	
+$t88	i	+	$t87
+i		=	$t88
+%goto	LABEL_30		
+LABEL_31	:		
+%ret	$t88		
+%end			
+LABEL_f2	:		
+char	f2	()	
+%para	char	x	
+%var	int	z2	
+%endvardef			
+%li	$t0	1	
+z2		=	$t0
+$t1	x	+	z2
+x		=	$t1
+%ret	x		
+%end			
+LABEL_fib	:		
+int	fib	()	
+%para	int	n	
+%var	int	result	
+%endvardef			
+%li	$t0	0	
+$t1	n	==	$t0
+BZ	$t1	LABEL_32	
+%li	$t2	0	
+%ret	$t2		
+%goto	LABEL_33		
+LABEL_32	:		
+LABEL_33	:		
+%li	$t3	1	
+$t4	n	==	$t3
+BZ	$t4	LABEL_34	
+%li	$t5	1	
+%ret	$t5		
+%goto	LABEL_35		
+LABEL_34	:		
+LABEL_35	:		
+%call	fib		
+%li	$t6	1	
+$t7	n	-	$t6
+%push	$t7		
+%jal	LABEL_fib		
+$t8	=	RET	
+%call	fib		
+%li	$t9	2	
+$t10	n	-	$t9
+%push	$t10		
+%jal	LABEL_fib		
+$t11	=	RET	
+$t12	$t8	+	$t11
+result		=	$t12
+%ret	result		
+%end			
+LABEL_nest	:		
+void	nest	()	
+%var	int	a	15
+%var	int	b	15
+%endvardef			
+%li	$t0	1	
+a	0	=	$t0
+%li	$t1	3	
+b	1	=	$t1
+%li	$t2	4	
+a	3	=	$t2
+%li	$t3	6	
+b	4	=	$t3
+%li	$t4	8	
+a	6	=	$t4
+%li	$t5	0	
+$t6	=	a	$t5
+$t7	=	b	$t6
+$t8	=	a	$t7
+$t9	=	b	$t8
+$t10	=	a	$t9
+%li	$t11	2333	
+b	$t10	=	$t11
+%li	$t12	0	
+$t13	=	a	$t12
+%li	$t14	8	
+$t15	=	b	$t14
+$t16	$t13	+	$t15
+%printf	number	$t16	
+%ret	$t16		
+%end			
+LABEL_t	:		
+void	t	()	
+%para	char	x	
+%endvardef			
+%li	$t0	99	
+$t1	x	>	$t0
+BZ	$t1	LABEL_36	
+%ret	$t1		
+%goto	LABEL_37		
+LABEL_36	:		
+LABEL_37	:		
+%li	$t2	1	
+$t3	x	+	$t2
+x		=	$t3
+%printf	number	x	
+%call	t		
+%push	x		
+%jal	LABEL_t		
+%ret	x		
+%end			
+LABEL_MAIN	:		
+void	main	()	
+const int	coz	=	3
+%var	int	a	
+%var	int	b	
+%var	int	c	
+%var	int	d	
+%var	int	key	
+%var	int	i	
+%var	int	sz2	5
+%var	int	cho	
+%var	char	sz	5
+%var	char	e	
+%endvardef			
+%li	$t0	43	
+chc		=	$t0
+%li	$t1	45	
+chd		=	$t1
+%li	$t2	3	
+b		=	$t2
+%li	$t3	0	
+i		=	$t3
+%li	$t4	2	
+$t5		-	$t4
+c		=	$t5
+%li	$t6	1	
+key		=	$t6
+%scanf	cho		
+%li	$t7	0	
+$t8	cho	==	$t7
+BZ	$t8	LABEL_39	
+%printf	string	test line:	
+%call	line		
+%li	$t9	8	
+%push	$t9		
+%li	$t10	3	
+%push	$t10		
+%jal	LABEL_line		
+%goto	LABEL_38		
+LABEL_39	:		
+%li	$t11	1	
+$t12	cho	==	$t11
+BZ	$t12	LABEL_40	
+%printf	string	test fib:	
+%call	fib		
+%push	coz		
+%jal	LABEL_fib		
+$t13	=	RET	
+d		=	$t13
+%printf	string	fib=	
+%printf	number	d	
+%goto	LABEL_38		
+LABEL_40	:		
+%li	$t14	2	
+$t15	cho	==	$t14
+BZ	$t15	LABEL_41	
+%li	$t16	97	
+sz	i	=	$t16
+sz2	i	=	i
+%li	$t17	1	
+$t18	i	+	$t17
+i		=	$t18
+LABEL_42	:		
+%li	$t19	5	
+$t20	i	<	$t19
+BZ	$t20	LABEL_43	
+%li	$t21	97	
+sz	i	=	$t21
+sz2	i	=	i
+%li	$t22	1	
+$t23	i	+	$t22
+i		=	$t23
+%goto	LABEL_42		
+LABEL_43	:		
+%scanf	key		
+%scanf	a		
+%li	$t24	3	
+$t25	key	<	$t24
+BZ	$t25	LABEL_44	
+$t26	a	+	b
+a		=	$t26
+%printf	number	a	
+%goto	LABEL_45		
+LABEL_44	:		
+LABEL_45	:		
+%li	$t27	3	
+$t28	key	<=	$t27
+BZ	$t28	LABEL_46	
+$t29	b	-	a
+b		=	$t29
+%li	$t30	0	
+$t31	=	sz2	$t30
+$t32	$t31	+	b
+sz2	0	=	$t32
+%li	$t33	0	
+$t34	=	sz	$t33
+%li	$t35	1	
+$t36	$t34	+	$t35
+sz	0	=	$t36
+%printf	number	b	
+%li	$t37	0	
+$t38	=	sz	$t37
+%printf	number	$t38	
+%li	$t39	0	
+$t40	=	sz2	$t39
+%printf	number	$t40	
+%goto	LABEL_47		
+LABEL_46	:		
+LABEL_47	:		
+%li	$t41	6	
+$t42	key	>	$t41
+BZ	$t42	LABEL_48	
+$t43	a	*	b
+c		=	$t43
+%li	$t44	1	
+$t45	=	sz2	$t44
+$t46	$t45	+	c
+sz2	1	=	$t46
+%li	$t47	1	
+$t48	=	sz	$t47
+%li	$t49	1	
+$t50	$t48	+	$t49
+sz	1	=	$t50
+%printf	number	c	
+%li	$t51	1	
+$t52	=	sz	$t51
+%printf	number	$t52	
+%li	$t53	1	
+$t54	=	sz2	$t53
+%printf	number	$t54	
+%goto	LABEL_49		
+LABEL_48	:		
+LABEL_49	:		
+%li	$t55	6	
+$t56	key	>=	$t55
+BZ	$t56	LABEL_50	
+$t57	a	/	b
+d		=	$t57
+%li	$t58	2	
+$t59	=	sz2	$t58
+$t60	$t59	+	d
+sz2	2	=	$t60
+%li	$t61	2	
+$t62	=	sz	$t61
+%li	$t63	1	
+$t64	$t62	+	$t63
+sz	2	=	$t64
+%printf	number	d	
+%li	$t65	2	
+$t66	=	sz	$t65
+%printf	number	$t66	
+%li	$t67	2	
+$t68	=	sz2	$t67
+%printf	number	$t68	
+%goto	LABEL_51		
+LABEL_50	:		
+LABEL_51	:		
+%li	$t69	4	
+$t70	key	!=	$t69
+BZ	$t70	LABEL_52	
+%li	$t71	1	
+$t72	$t71	/	coz
+$t73	a	-	$t72
+a		=	$t73
+%li	$t74	3	
+$t75	=	sz2	$t74
+$t76	$t75	+	a
+%li	$t77	99	
+$t78	$t76	+	$t77
+sz2	3	=	$t78
+%li	$t79	3	
+$t80	=	sz	$t79
+%li	$t81	1	
+$t82	$t80	+	$t81
+sz	3	=	$t82
+%printf	number	a	
+%li	$t83	3	
+$t84	=	sz	$t83
+%printf	number	$t84	
+%li	$t85	3	
+$t86	=	sz2	$t85
+%printf	number	$t86	
+%goto	LABEL_53		
+LABEL_52	:		
+LABEL_53	:		
+%li	$t87	4	
+$t88	key	==	$t87
+BZ	$t88	LABEL_54	
+$t89		-	a
+%li	$t90	2	
+$t91	$t90	*	coz
+$t92	$t89	+	$t91
+a		=	$t92
+%li	$t93	4	
+$t94	=	sz	$t93
+%li	$t95	1	
+$t96	$t94	+	$t95
+sz	4	=	$t96
+%printf	number	a	
+%li	$t97	4	
+$t98	=	sz	$t97
+%printf	number	$t98	
+%li	$t99	4	
+$t100	=	sz2	$t99
+%printf	number	$t100	
+%goto	LABEL_55		
+LABEL_54	:		
+LABEL_55	:		
+BZ	key	LABEL_56	
+%printf	number	a	
+%goto	LABEL_57		
+LABEL_56	:		
+LABEL_57	:		
+%goto	LABEL_38		
+LABEL_41	:		
+%li	$t101	3	
+$t102	cho	==	$t101
+BZ	$t102	LABEL_58	
+%printf	string	test function:	
+BZ	key	LABEL_59	
+%call	f		
+%li	$t103	2	
+$t104		-	$t103
+%push	$t104		
+%li	$t105	3	
+%push	$t105		
+%jal	LABEL_f		
+$t106	=	RET	
+%li	$t107	5	
+%li	$t108	1	
+$t109	$t107	+	$t108
+$t110	$t109	*	coz
+$t111	$t106	+	$t110
+sz2	4	=	$t111
+%goto	LABEL_60		
+LABEL_59	:		
+LABEL_60	:		
+%call	t		
+%push	conb		
+%jal	LABEL_t		
+%call	f2		
+%li	$t112	97	
+%push	$t112		
+%jal	LABEL_f2		
+$t113	=	RET	
+%printf	number	$t113	
+%li	$t114	4	
+$t115	=	sz2	$t114
+%printf	number	$t115	
+%goto	LABEL_38		
+LABEL_58	:		
+%li	$t116	4	
+$t117	cho	==	$t116
+BZ	$t117	LABEL_61	
+%printf	string	test switch:	
+%scanf	key		
+%li	$t118	1	
+$t119	key	*	$t118
+%li	$t120	0	
+$t121	$t119	==	$t120
+BZ	$t121	LABEL_63	
+%printf	string	key is 0	
+%goto	LABEL_62		
+LABEL_63	:		
+%li	$t122	1	
+$t123	$t119	==	$t122
+BZ	$t123	LABEL_64	
+%printf	string	key is 	
+%printf	number	key	
+%goto	LABEL_62		
+LABEL_64	:		
+%li	$t124	2	
+$t125	$t119	==	$t124
+BZ	$t125	LABEL_65	
+%printf	string	key is 2	
+%goto	LABEL_62		
+LABEL_65	:		
+LABEL_62	:		
+%scanf	e		
+%li	$t126	97	
+$t127	e	==	$t126
+BZ	$t127	LABEL_67	
+%li	$t128	2	
+%printf	number	$t128	
+%goto	LABEL_66		
+LABEL_67	:		
+%li	$t129	98	
+$t130	e	==	$t129
+BZ	$t130	LABEL_68	
+%li	$t131	2	
+%li	$t132	2	
+$t133		-	$t132
+$t134	$t131	+	$t133
+%printf	number	$t134	
+%goto	LABEL_66		
+LABEL_68	:		
+LABEL_66	:		
+%goto	LABEL_38		
+LABEL_61	:		
+LABEL_38	:		
+%call	nest		
+%jal	LABEL_nest		
+%goto	ENDOFPROGRAM		
+ENDOFPROGRAM	:		

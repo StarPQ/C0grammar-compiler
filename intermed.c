@@ -110,9 +110,12 @@ void insertMid(char* head, char* var1, char* var2, char* var3){
 }
 void printmidlist(){
     int i = 0;
+    FILE *midoutput = fopen("middle_code.txt", "w+");
     for(i; i <= listtop; i++){
         printf("%s\t%s\t%s\t%s\n", codelist[i].head, codelist[i].var1, codelist[i].var2, codelist[i].var3);
+        fprintf(midoutput, "%s\t%s\t%s\t%s\n", codelist[i].head, codelist[i].var1, codelist[i].var2, codelist[i].var3);
     }
+    fclose(midoutput);
 }
 
 void midLabel(char *var1){

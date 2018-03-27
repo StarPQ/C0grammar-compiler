@@ -19,4 +19,5 @@ typedef struct{
 }midcode;
 
 midcode codelist[MAXMIDCODE];
+//midcode opcodelist[MAXMIDCODE];
 extern int listtop;

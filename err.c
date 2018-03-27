@@ -162,6 +162,7 @@ void deal(int type){
     case DONOTHING:
         break;
     case TOHEAD:
+        nextsym();
         while(symid != CONSTSY && symid != IFSY && symid != ELSESY && symid != SWITCHSY && symid != CASESY
          && symid != DEFAULTSY && symid != RETURNSY && symid != WHILESY && symid != PRINTFSY && symid != SCANFSY
           && symid != INTSY && symid != CHARSY && symid != VOIDSY && symid != LBBRACK && symid != RBBRACK){
